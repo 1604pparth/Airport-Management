@@ -1,0 +1,265 @@
+﻿Airport Management System: G5_6
+
+Group Details:
+Aryan Jivani 202101425
+Takshay Makadiya 202101414
+Parth Parmar 202101077
+
+
+DDL Script:
+
+
+Create table airport
+(
+airport_id int primary key ,
+airport_name text NOT NULL,
+airport_city varchar(30) NOT NULL,
+airport_state varchar(30) ,
+airport_country varchar(30) NOT NULL
+);
+
+
+Create table terminal
+(
+airport_id int references airport(airport_id)
+ON UPDATE CASCADE ON DELETE CASCADE,
+terminal_id int,
+terminal_name varchar(30) NOT NULL,
+primary key(airport_id,terminal_id)
+);
+
+
+
+
+Create table parking
+(
+        parking_id int ,
+        airport_id int NOT NULL,
+        terminal_id int NOT NULL, 
+        par_price int NOT NULL,
+        par_currency varchar(30),
+        par_capacity int NOT NULL check(par_capacity>0),
+        primary key(parking_id,airport_id,terminal_id),
+        FOREIGN KEY (airport_id, terminal_id) REFERENCES terminal(airport_id, terminal_id)
+        ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+Create table parking_ticket
+(
+        parking_ticket_id int ,
+        parking_id int ,
+        airport_id int ,
+        terminal_id int ,
+        par_start_time timestamp NOT NULL,
+        par_end_time timestamp check(par_end_time>par_start_time),
+        primary key(parking_ticket_id,parking_id,airport_id,terminal_id),
+        FOREIGN KEY (parking_id,airport_id, terminal_id) REFERENCES parking(parking_id,airport_id, terminal_id)
+        ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+Create table amenity
+(
+shop_id int,
+airport_id int ,
+terminal_id int ,
+shop_name varchar(30) NOT NULL,
+shop_type varchar(30),
+primary key(shop_id,airport_id,terminal_id),
+FOREIGN KEY (airport_id, terminal_id) REFERENCES terminal(airport_id, terminal_id)
+ON UPDATE CASCADE ON DELETE CASCADE        
+);
+
+
+Create table airline
+(
+        airline_id int primary key,
+        airline_name varchar(30) NOT NULL
+);
+
+
+Create table aircraft
+(
+aircraft_reg_id int primary key,        
+aircraft_name varchar(30) NOT NULL,
+passenger int check(passenger >=0),
+weight int check(weight >0),
+aircraft_type varchar(30),
+airline_id int NOT NULL,
+FOREIGN KEY (airline_id) REFERENCES airline(airline_id)
+ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+Create table flight
+(
+        flight_id int primary key,        
+        aircraft_reg_id int NOT NULL,
+        FOREIGN KEY (aircraft_reg_id) REFERENCES aircraft(aircraft_reg_id)
+        ON UPDATE CASCADE ON DELETE CASCADE,
+        Takeoff_time timestamp NOT NULL,
+        landing_time timestamp check(Landing_time>Takeoff_time),
+        flight_Status varchar(15),
+
+
+Source_airport int NOT NULL,
+Source_terminal int NOT NULL,
+FOREIGN KEY (Source_airport,Source_terminal) REFERENCES terminal(airport_id,terminal_id)
+ON UPDATE CASCADE ON DELETE CASCADE,
+
+
+destination_airport int NOT NULL check(Source_airport<>destination_airport),
+destination_terminal int NOT NULL,
+FOREIGN KEY (destination_airport,destination_terminal) REFERENCES terminal(airport_id,terminal_id)
+ON UPDATE CASCADE ON DELETE CASCADE
+        
+);
+
+
+Create table employee
+(
+        eno int primary key,
+airport_id int  NOT NULL,
+FOREIGN key(airport_id)references airport(airport_id)
+ON UPDATE CASCADE ON DELETE CASCADE,
+eno_name varchar(60),
+eno_add text,
+eno_phone varchar(15),
+eno_sex char(1) check(eno_sex='M' or eno_sex='F'),
+eno_designationt text,
+salary int,
+eno_dob date
+
+
+);
+Create table schedule
+(
+        airport_id int NOT NULL,
+        terminal_id int NOT NULL,
+        FOREIGN KEY (airport_id,terminal_id) REFERENCES terminal(airport_id,terminal_id)
+        ON UPDATE CASCADE ON DELETE CASCADE,
+
+
+        Flight_id int NOT NULL ,
+        FOREIGN KEY (Flight_id) REFERENCES flight(flight_id)
+        ON UPDATE CASCADE ON DELETE CASCADE,
+
+
+        arrival_time timestamp,
+        departure_time timestamp check(departure_time>arrival_time),
+        primary key(airport_id,terminal_id,flight_id)
+
+
+);
+
+
+Create table passenger
+(
+        passport_no int primary key,
+        pass_name varchar(30) NOT NULL,
+        pass_sex char(1)  check(pass_sex='M' or pass_sex='F'),
+        pass_add varchar(30) NOT NULL,
+        pass_contact varchar(15) NOT NULL,
+        pass_dob date NOT NULL
+);
+
+
+Create table cancel_ticket
+(
+        ticket_id int,
+        flight_id int ,
+          FOREIGN KEY (Flight_id) REFERENCES flight(flight_id)
+          ON UPDATE CASCADE ON DELETE CASCADE,
+        passport_no int NOT NULL,
+        FOREIGN KEY (passport_no) REFERENCES passenger(passport_no)
+          ON UPDATE CASCADE ON DELETE CASCADE,
+        tic_price int,
+        tic_seat int ,
+        tic_class varchar(15) NOT NULL,
+          Book_time timestamp NOT NULL,
+        Cancel_time timestamp check(Cancel_time>Book_time),
+        Primary key(ticket_id)
+        
+);
+
+
+
+
+
+
+
+
+
+
+Create table ticket
+(
+        ticket_id int,
+        flight_id int ,
+          FOREIGN KEY (Flight_id) REFERENCES flight(flight_id)
+          ON UPDATE CASCADE ON DELETE CASCADE,
+        passport_no int NOT NULL,
+        FOREIGN KEY (passport_no) REFERENCES passenger(passport_no)
+          ON UPDATE CASCADE ON DELETE CASCADE,
+
+
+        tic_price int,
+        tic_seat int ,
+        tic_class varchar(15) NOT NULL,
+          pass_arrival_time timestamp,
+        Book_time timestamp NOT NULL,
+        
+          Primary key(ticket_id),
+        Unique (flight_id,tic_seat)
+                
+);
+
+
+Create table baggage
+(
+        bagg_id int primary key,
+        ticket_id int NOT NULL,
+        FOREIGN KEY (ticket_id) REFERENCES ticket(ticket_id)
+          ON UPDATE CASCADE ON DELETE CASCADE,
+          bagg_weight int NOT NULL,
+          track_staus varchar(15) NOT NULL        
+                
+);
+
+
+Create table cpoint
+(
+        cp_id int ,
+        airport_id int ,
+        terminal_id int,
+        restriction text,
+        primary key(cp_id,airport_id,terminal_id),
+        FOREIGN KEY (airport_id,terminal_id) REFERENCES terminal(airport_id, terminal_id)
+        ON UPDATE CASCADE ON DELETE CASCADE
+        
+);
+
+
+
+
+Create table passthrough
+(
+        ticket_id int ,
+        airport_id int ,
+        terminal_id int,
+          FOREIGN KEY (ticket_id) REFERENCES ticket(ticket_id)
+          ON UPDATE CASCADE ON DELETE CASCADE,
+          eno int ,
+          FOREIGN KEY (eno) REFERENCES employee(eno)
+          ON UPDATE CASCADE ON DELETE CASCADE,
+          cp_id int ,
+          FOREIGN KEY (cp_id,airport_id,terminal_id) REFERENCES cpoint(cp_id,airport_id,terminal_id)
+          ON UPDATE CASCADE ON DELETE CASCADE,
+          passing_time timestamp,
+          Primary key (ticket_id,eno,cp_id,airport_id,terminal_id)                
+);
+
+
+
+
+--------------------END--------------------

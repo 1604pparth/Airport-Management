@@ -1,0 +1,142 @@
+﻿Airport Management System
+G5_6
+
+
+Group Details:
+
+
+Aryan Jivani 202101425
+Takshay Makadiya 202101414
+Parth Parmar 202101077
+
+
+QUERIES
+
+
+1. Total number of passengers who traveled from India to USA on 2020-05-11
+
+
+select count(passport_no) from
+((select flight_id,passport_no from (ticket natural join flight) as b
+join airport as a on b.source_airport=a.airport_id where airport_country='India' and date(takeoff_time)=date'2020-05-11')
+INTERSECT
+(select flight_id,passport_no from (ticket natural join flight) as b
+join airport as a on b.destination_airport=a.airport_id where airport_country='USA')) as c;
+
+
+2. Total salary of all employees for a given airport in a year
+
+
+select airport_id,sum(salary) from employee group by airport_id;
+
+
+3. List of all flights that take more than 24 hours
+
+
+SELECT flight_id, takeoff_time, landing_time, EXTRACT(EPOCH FROM (landing_time - takeoff_time))/3600 as total_flight_time
+FROM flight
+WHERE EXTRACT(EPOCH FROM (landing_time - takeoff_time))/3600 >= 24;
+
+
+4. Total domestic flights taking off on 2020-05-11 for each country
+
+
+select airport_country, count(flight_id) from
+(select flight_id,airport_country from flight as f
+join airport as a on f.source_airport=a.airport_id where date(takeoff_time)=date'2020-05-11')
+as c group by airport_country;
+
+
+5. Total takeoffs + landings for each airport on 2020-05-11 
+
+
+select airport_id,airport_name,count(flight_id) as total_flights from
+(select * from flight as f join airport as a
+on (f.source_airport=a.airport_id or f.destination_airport=a.airport_id)
+where (date(takeoff_time)=date'2020-05-11' or date(landing_time)=date'2020-05-11')) as c
+group by airport_id,airport_name;
+
+
+6. List each baggage to its corresponding passenger 
+
+
+select passport_no,bagg_id from 
+ticket natural join baggage
+
+
+7. List all airline that operate on each airport 
+
+
+select airport_name,airline_name from
+(aircraft natural join airline) as d join
+(select airport_name,flight_id,aircraft_reg_id from flight as f join airport as a
+on f.source_airport=a.airport_id or f.destination_airport=a.airport_id) as c
+on c.aircraft_reg_id=d.aircraft_reg_id
+
+
+8. All flights from UAE to Canada
+
+
+((select flight_id from flight as f
+join airport as a on f.source_airport=a.airport_id where country='UAE')
+INTERSECT
+(select flight_id from flight as f
+join airport as a on f.destination_airport=a.airport_id where country='Canada'))
+
+
+9. Total revenue of an airline on 2020-05-11 for flights between India and USA
+
+
+select airline_id,airline_name,sum(tic_price) from
+(airline natural join aircraft natural join
+(select flight_id,aircraft_reg_id from
+flight as f join airport as a 
+on f.source_airport=a.airport_id or f.destination_airport=a.airport_id
+where (airport_country='India' or airport_country='USA') and date(takeoff_time)=date'2020-05-11') as c) as d join ticket as t on
+t.flight_id=d.flight_id group by airline_id
+
+
+
+10.  Total number of passengers on a particular flight
+
+
+select flight_id,count(ticket_id) from
+Flight natural join ticket group by flight_id
+
+
+11.  List of all checkpoints to pass by the passenger
+
+
+select passport_no,cp_id from passthrough natural join ticket 
+
+
+12.  How many passengers are checked by each employees on the airport airport_id 
+
+
+select eno,count(passport_no) from
+(select ticket_id,eno,passport_no from passthrough natural join employee natural join ticket 
+where airport_id=airport_id) as c group by eno
+
+
+13.  Total number of flights mid air at timestamp
+
+
+select count(flight_id) from flight
+where takeoff_time<timestamp and landing_time>timestamp
+
+
+14.  List of all passengers who booked the ticket but missed the flight
+
+
+select passport_no,ticket_id,flight_id from ticket natural join
+(select ticket_id from ticket where ticket_id not in
+(select ticket_id from passthrough)) as c;
+
+
+15.  Total number of employees working on each airport
+
+
+select airport_id,airport_name,count(eno) from 
+employee natural join airport group by airport_id,airport_name;
+
+------------------------------END------------------------------

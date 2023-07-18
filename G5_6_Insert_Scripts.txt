@@ -1,0 +1,1819 @@
+﻿Airport Management System
+G5_6
+
+Group Details:
+
+Aryan Jivani 202101425
+Takshay Makadiya 202101414
+Parth Parmar 202101077
+
+Insert Script
+
+
+Airline: 21
+
+
+INSERT INTO airline VALUES (1,'Emirates');
+INSERT INTO airline VALUES (2, 'Delta');
+INSERT INTO airline VALUES (3, 'United');
+INSERT INTO airline VALUES (4, 'American Airlines');
+INSERT INTO airline VALUES (5, 'British Airways');
+INSERT INTO airline VALUES (6, 'Lufthansa');
+INSERT INTO airline VALUES (7, 'Air France');
+INSERT INTO airline VALUES (8, 'Cathay Pacific');
+INSERT INTO airline VALUES (9, 'Qantas');
+INSERT INTO airline VALUES (10, 'Singapore Airlines');
+INSERT INTO airline VALUES (11, 'ANA - All Nippon Airways');
+INSERT INTO airline VALUES (12, 'Turkish Airlines');
+INSERT INTO airline VALUES (13, 'KLM Royal Dutch Airlines');
+INSERT INTO airline VALUES (14, 'Swiss International Air Lines');
+INSERT INTO airline VALUES (15, 'Qatar Airways');
+INSERT INTO airline VALUES (16, 'Etihad Airways');
+INSERT INTO airline VALUES (17, 'Air Canada');
+INSERT INTO airline VALUES (18, 'Scandinavian Airlines');
+INSERT INTO airline VALUES (19, 'Thai Airways');
+INSERT INTO airline VALUES (20, 'Virgin Atlantic');
+INSERT INTO airline VALUES (21, 'JetBlue Airways');
+
+
+Passenger: 146 
+INSERT INTO passenger VALUES (100001,'Oliver Queen','M','7, Starling Avenue', '1234567890','1990-05-12');
+INSERT INTO passenger VALUES (100002,'Felicity Smoak','F','14, Palmer Drive', '0987654321','1993-07-19');
+INSERT INTO passenger VALUES (100003,'Barry Allen','M','123, Main Street', '5551234567','1995-03-14');
+INSERT INTO passenger VALUES (100004,'Iris West','F','52, Westview Lane', '4445556666','1991-11-17');
+INSERT INTO passenger VALUES (100005,'Kara Danvers','F','18, Catco Plaza', '3216549870','1990-08-14');
+INSERT INTO passenger VALUES (100006,'Clark Kent','M','1938, Krypton Avenue', '9876543210','1992-04-18');
+INSERT INTO passenger VALUES (100007,'Diana Prince','F','Themyscira Island', '7778889999','1989-06-28');
+INSERT INTO passenger VALUES (100008,'Bruce Wayne','M','1007, Wayne Manor', '5554443333','1997-02-19');
+INSERT INTO passenger VALUES (100009,'Selina Kyle','F','101, Catwoman Alley', '2223334444','1994-09-03');
+INSERT INTO passenger VALUES (100010,'Harvey Dent','M','212, Gotham Plaza', '8887776666','1993-12-02');
+INSERT INTO passenger VALUES (100011,'Jessica Jones','F','42, Alias Investigations', '5551239876','1986-12-01');
+INSERT INTO passenger VALUES (100012,'Luke Cage','M','23, Pop's Barber Shop', '9876543211','1984-08-08');
+INSERT INTO passenger VALUES (100013,'Danny Rand','M','56, Rand Enterprises', '1234567891','1991-02-16');
+INSERT INTO passenger VALUES (100014,'Colleen Wing','F','7, Chikara Dojo', '9876543212','1993-10-20');
+INSERT INTO passenger VALUES (100015,'Matt Murdock','M','254, Nelson and Murdock', '5551234567','1985-06-30');
+INSERT INTO passenger VALUES (100016,'Karen Page','F','15, Clinton Church', '4445556667','1990-04-25');
+INSERT INTO passenger VALUES (100017,'Frank Castle','M','33, Marine Corps Base', '5554443332','1980-02-16');
+INSERT INTO passenger VALUES (100018,'Elektra Natchios','F','131, Greek Street', '5555555555','1988-11-04');
+INSERT INTO passenger VALUES (100019,'Wade Wilson','M','42, Sister Margaret's', '1234567892','1982-02-14');
+INSERT INTO passenger VALUES (100020,'Vanessa Carlysle','F','16, Clinton Street', '9998887776','1989-09-28');
+INSERT INTO passenger VALUES (100021,'Peter Parker','M','20, Ingram Street', '5556667777','1998-05-12');
+INSERT INTO passenger VALUES (100022,'Mary Jane Watson','F','89, Bleecker Street', '3332221111','1995-09-20');
+INSERT INTO passenger VALUES (100023,'Gwen Stacy','F','13, 44th Street', '6667778888','1997-03-22');
+INSERT INTO passenger VALUES (100024,'Harry Osborn','M','30, Osborn Industries', '8889990000','1990-11-07');
+INSERT INTO passenger VALUES (100025,'J. Jonah Jameson','M','39, Park Avenue', '7778889990','1950-04-17');
+INSERT INTO passenger VALUES (100026,'Steve Rogers','M','569, Leaman Place', '1112223333','1918-07-04');
+INSERT INTO passenger VALUES (100027,'Peggy Carter','F','218, Greenfield Lane', '9998887775','1921-04-09');
+INSERT INTO passenger VALUES (100028,'Bucky Barnes','M','15, Maple Street', '5556667776','1917-03-10');
+INSERT INTO passenger VALUES (100029,'Natasha Romanoff','F','14, Red Room Academy', '1234567893','1984-11-22');
+INSERT INTO passenger VALUES (100030,'Tony Stark','M','10880, Malibu Point', '5554443331','1970-05-29');
+INSERT INTO passenger VALUES (100031,'Rachel Green','F','90 Bedford Street', '5551234567','1969-05-05');
+INSERT INTO passenger VALUES (100032,'Monica Geller','F','495 Grove Street', '5559876543','1969-04-22');
+INSERT INTO passenger VALUES (100033,'Phoebe Buffay','F','5 Morton Street', '5553456789','1963-02-16');
+INSERT INTO passenger VALUES (100034,'Joey Tribbiani','M','90 Bedford Street', '5552345678','1968-07-30');
+INSERT INTO passenger VALUES (100035,'Chandler Bing','M','4 West 83rd Street', '5558765432','1968-04-08');
+INSERT INTO passenger VALUES (100036,'Ross Geller','M','15 Morton Street', '5554321098','1967-10-18');
+INSERT INTO passenger VALUES (100037,'Janice Litman-Goralnik','F','31 West 73rd Street', '5551112222','1966-05-02');
+INSERT INTO passenger VALUES (100038,'Richard Burke','M','332 West 77th Street', '5554445555','1957-06-09');
+INSERT INTO passenger VALUES (100039,'Judy Geller','F','495 Grove Street', '5558889999','1949-12-23');
+INSERT INTO passenger VALUES (100040,'Jack Geller','M','495 Grove Street', '5557778888','1939-06-06');
+INSERT INTO passenger VALUES (100041,'Rachael Cruz','F','23 Oak Lane', '5559012345','1980-06-15');
+INSERT INTO passenger VALUES (100042,'Isabella Collins','F','52 Pine Street', '5555678901','1979-02-28');
+INSERT INTO passenger VALUES (100043,'Samantha Cooper','F','89 Maple Avenue', '5551234567','1987-11-10');
+INSERT INTO passenger VALUES (100044,'Aiden Turner','M','31 Cedar Drive', '5552345678','1992-05-22');
+INSERT INTO passenger VALUES (100045,'Avery Hernandez','F','67 Elm Street', '5553456789','1983-09-30');
+INSERT INTO passenger VALUES (100046,'Julian Rodriguez','M','45 Willow Road', '5554567890','1980-12-03');
+INSERT INTO passenger VALUES (100047,'Aria Johnson','F','11 Oak Lane', '5555678901','1997-02-20');
+INSERT INTO passenger VALUES (100048,'Caleb Perez','M','77 Pine Street', '5556789012','1991-07-07');
+INSERT INTO passenger VALUES (100049,'Lila Allen','F','21 Maple Avenue', '5557890123','1995-11-18');
+INSERT INTO passenger VALUES (100050,'Nicholas Turner','M','56 Cedar Drive', '5559012345','1978-03-26');
+INSERT INTO passenger VALUES (100051,'Evelyn White','F','32 Elm Street', '5555678901','1990-10-12');
+INSERT INTO passenger VALUES (100052,'Sebastian Wilson','M','83 Willow Road', '5552345678','1976-05-30');
+INSERT INTO passenger VALUES (100053,'Sophie Johnson','F','68 Oak Lane', '5557890123','1992-09-07');
+INSERT INTO passenger VALUES (100054,'Aidan Mitchell','M','13 Pine Street', '5553456789','1981-12-25');
+INSERT INTO passenger VALUES (100055,'Isabella Davis','F','28 Maple Avenue', '5556789012','1979-02-16');
+INSERT INTO passenger VALUES (100056,'Ethan Martin','M','90 Cedar Drive', '5559012345','1989-11-04');
+INSERT INTO passenger VALUES (100057,'Olivia Lee','F','49 Elm Street', '5551234567','1996-08-18');
+INSERT INTO passenger VALUES (100058,'Jaxon Cook','M','16 Willow Road', '5554567890','1991-01-15');
+INSERT INTO passenger VALUES (100059,'Aria Cooper','F','75 Oak Lane', '5557890123','1984-03-11');
+INSERT INTO passenger VALUES (100060,'Luke Reed','M','27 Pine Street', '5555678901','1998-05-22');
+INSERT INTO passenger VALUES (100061,'Sofia Wright','F','93 Maple Avenue', '5557890123','1981-09-01');
+INSERT INTO passenger VALUES (100062,'Gabriel Brown','M','38 Cedar Drive', '5551234567','1993-04-27');
+INSERT INTO passenger VALUES (100063,'Liam Perez','M','72 Elm Street', '5551234547','1992-04-27');
+INSERT INTO passenger VALUES (100064,'Aurora Taylor','F','46 Willow Road', '5554567890','1979-12-09');
+INSERT INTO passenger VALUES (100065,'Oliver Allen','M','24 Oak Lane', '5552345678','1990-03-15');
+INSERT INTO passenger VALUES (100066,'Chloe King','F','50 Pine Street', '5557890123','1988-06-21');
+INSERT INTO passenger VALUES (100067,'Benjamin Hill','M','81 Maple Avenue', '5559012345','1977-09-28');
+INSERT INTO passenger VALUES (100068,'Emma Parker','F','69 Cedar Drive', '5555678901','1995-02-14');
+INSERT INTO passenger VALUES (100069,'Mason Evans','M','29 Elm Street', '5551234567','1998-07-30');
+INSERT INTO passenger VALUES (100070,'Abigail Baker','F','36 Willow Road', '5559012345','1986-10-08');
+INSERT INTO passenger VALUES (100071,'William Green','M','73 Oak Lane', '5554567890','1978-02-03');
+INSERT INTO passenger VALUES (100072,'Avery Allen','F','19 Pine Street', '5557890123','1991-05-18');
+INSERT INTO passenger VALUES (100073,'Lucas Scott','M','55 Maple Avenue', '5552345678','1983-08-27');
+INSERT INTO passenger VALUES (100074,'Lila Torres','F','80 Cedar Drive', '5555678901','1997-11-10');
+INSERT INTO passenger VALUES (100075,'Ethan Carter','M','47 Elm Street', '5557890123','1980-06-15');
+INSERT INTO passenger VALUES (100076,'Madison Flores','F','35 Willow Road', '5553456789','1979-02-28');
+INSERT INTO passenger VALUES (100077,'Aiden Peterson','M','91 Oak Lane', '5551234567','1987-11-10');
+INSERT INTO passenger VALUES (100078,'Sophia Roberts','F','18 Pine Street', '5559012345','1992-05-22');
+INSERT INTO passenger VALUES (100079,'Nathan Reed','M','54 Maple Avenue', '5555678901','1983-09-30');
+INSERT INTO passenger VALUES (100080,'Evelyn Sanchez','F','42 Cedar Drive', '5554567890','1980-12-03');
+INSERT INTO passenger VALUES (100081,'Carter Wright','M','88 Elm Street', '5557890123','1997-02-20');
+INSERT INTO passenger VALUES (100082,'Lily Turner','F','20 Willow Road', '5556789012','1991-07-07');
+INSERT INTO passenger VALUES (100083,'Anthony Clark','M','65 Oak Lane', '5551234567','1995-11-18');
+INSERT INTO passenger VALUES (100084,'Ava Walker','F','39 Pine Street', '5559012345','1978-03-26');
+INSERT INTO passenger VALUES (100085,'Grayson Rodriguez','M','76 Maple Avenue', '5555678901','1990-10-12');
+INSERT INTO passenger VALUES (100086,'Aaliyah Perez','F','57 Cedar Drive', '5552345678','1976-05-30');
+INSERT INTO passenger VALUES (100087,'Landon Cooper','M','51 Elm Street', '5557890123','1985-09-04');
+INSERT INTO passenger VALUES (100088,'Savannah Hill','F','29 Willow Road', '5553456789','1994-12-16');
+INSERT INTO passenger VALUES (100089,'Elijah Adams','M','67 Oak Lane', '5551234567','1982-02-28');
+INSERT INTO passenger VALUES (100090,'Audrey Mitchell','F','19 Pine Street', '5555678901','1988-08-02');
+INSERT INTO passenger VALUES (100091,'Levi Baker','M','52 Maple Avenue', '5557890123','1996-05-09');
+INSERT INTO passenger VALUES (100092,'Victoria Scott','F','78 Cedar Drive', '5551234567','1985-12-24');
+INSERT INTO passenger VALUES (100093,'Caleb Lee','M','41 Elm Street', '5556789012','1981-06-17');
+INSERT INTO passenger VALUES (100094,'Hazel Cooper','F','70 Willow Road', '5559012345','1993-11-01');
+INSERT INTO passenger VALUES (100095,'Adam Rodriguez','M','44 Oak Lane', '5553456789','1984-03-20');
+INSERT INTO passenger VALUES (100096,'Isabelle Perez','F','87 Pine Street', '5557890123','1999-08-27');
+INSERT INTO passenger VALUES (100097,'Wyatt Parker','M','64 Maple Avenue', '5551234567','1986-11-10');
+INSERT INTO passenger VALUES (100098,'Aria Flores','F','38 Cedar Drive', '5559012345','1987-05-22');
+INSERT INTO passenger VALUES (100099,'Liam Turner','M','27 Elm Street', '5555678901','1979-09-05');
+INSERT INTO passenger VALUES (100100,'Chloe Adams','F','60 Willow Road', '5552345678','1980-12-10');
+INSERT INTO passenger VALUES (100101,'Ava Foster','F','19 Oak Lane', '5551234567','1995-08-01');
+INSERT INTO passenger VALUES (100102,'Isaac White','M','82 Elm Street', '5559876543','1982-11-18');
+INSERT INTO passenger VALUES (100103,'Cecilia Perez','F','307 Maple Avenue', '5555678901','1978-02-22');
+INSERT INTO passenger VALUES (100104,'Maximilian Kim','M','55 Willow Road', '5553334444','2000-07-10');
+INSERT INTO passenger VALUES (100105,'Lena Marshall','F','40 Cedar Drive', '5556789012','1992-05-30');
+INSERT INTO passenger VALUES (100106,'Samir Patel','M','11 Birch Street', '5552345678','1974-09-28');
+INSERT INTO passenger VALUES (100107,'Mila Chen','F','29 Pine Street', '5554567890','1988-03-12');
+INSERT INTO passenger VALUES (100108,'Owen Gallagher','M','96 Oak Avenue', '5557890123','1996-12-06');
+INSERT INTO passenger VALUES (100109,'Lila Davis','F','67 Cedar Lane', '5553456789','1984-08-17');
+INSERT INTO passenger VALUES (100110,'Ethan Lee','M','52 Pine Road', '5559012345','1999-02-04');
+INSERT INTO passenger VALUES (100111,'Avery Carter','F','13 Elm Street', '5556781234','1990-11-23');
+INSERT INTO passenger VALUES (100112,'Leo Nguyen','M','85 Willow Road', '5554321098','1979-06-02');
+INSERT INTO passenger VALUES (100113,'Jasmine Martin','F','70 Oak Lane', '5558901234','1986-09-11');
+INSERT INTO passenger VALUES (100114,'Elijah Torres','M','22 Cedar Drive', '5553210987','1997-03-28');
+INSERT INTO passenger VALUES (100115,'Violet Campbell','F','48 Maple Avenue', '5555678901','1981-12-25');
+INSERT INTO passenger VALUES (100116,'Noah Clark','M','77 Pine Street', '5559012345','1998-10-02');
+INSERT INTO passenger VALUES (100117,'Hazel Kim','F','43 Birch Street', '5553456789','1977-08-08');
+INSERT INTO passenger VALUES (100118,'Gavin Scott','M','15 Willow Road', '5551234567','2002-01-15');
+INSERT INTO passenger VALUES (100119,'Audrey Baker','F','36 Oak Avenue', '5554567890','1993-04-29');
+INSERT INTO passenger VALUES (100120,'Landon Patel','M','91 Maple Avenue', '5556789012','1973-07-16');
+INSERT INTO passenger VALUES (100121,'Lucia Garcia','F','58 Pine Road', '5552345678','1991-11-14');
+INSERT INTO passenger VALUES (100122,'Oscar Davis','M','24 Cedar Lane', '5557890123','1983-06-05');
+INSERT INTO passenger VALUES (100123,'Aryan Jivani','M','Los Santos', '6969696969','2003-05-01');
+INSERT INTO passenger VALUES (100124,'Isaiah Martinez','M','60 Willow Road', '5559012345','2001-04-12');
+INSERT INTO passenger VALUES (100125,'Emilia Ramirez','F','98 Oak Lane', '5555678901','1979-09-21');
+INSERT INTO passenger VALUES (100126,'Jude Thompson','M','33 Pine Street', '5551234567','1992-02-14');
+INSERT INTO passenger VALUES (100127,'Amelia Nguyen','F','89 Birch Street', '5552345678','1980-05-27');
+INSERT INTO passenger VALUES (100128,'Sebastian Wilson','M','14 Cedar Drive', '5557890123','1999-12-30');
+INSERT INTO passenger VALUES (100129,'Ruby King','F','49 Maple Avenue', '5554567890','1975-08-08');
+INSERT INTO passenger VALUES (100130,'Elliott Parker','M','81 Oak Avenue', '5556789012','1987-03-25');
+INSERT INTO passenger VALUES (100131,'Avery Hernandez','F','28 Pine Road', '5555678901','1994-10-19');
+INSERT INTO passenger VALUES (100132,'Caleb Perez','M','37 Cedar Lane', '5559012345','1980-07-07');
+INSERT INTO passenger VALUES (100133,'Mia Baker','F','51 Elm Street', '5553456789','1996-11-12');
+INSERT INTO passenger VALUES (100134,'Alexander Kim','M','76 Willow Road', '5551234567','1989-04-03');
+INSERT INTO passenger VALUES (100135,'Evelyn White','F','17 Oak Lane', '5556789012','1978-01-24');
+INSERT INTO passenger VALUES (100136,'Nathan Scott','M','92 Maple Avenue', '5554567890','1992-08-29');
+INSERT INTO passenger VALUES (100137,'Sophie Johnson','F','42 Pine Street', '5557890123','1982-12-15');
+INSERT INTO passenger VALUES (100138,'Gabriel Brown','M','23 Cedar Drive', '5555678901','1990-02-07');
+INSERT INTO passenger VALUES (100139,'Isabella Davis','F','62 Elm Street', '5559012345','1977-05-18');
+INSERT INTO passenger VALUES (100140,'Nicholas Turner','M','75 Willow Road', '5551234567','1995-09-10');
+INSERT INTO passenger VALUES (100141,'Aria Cooper','F','20 Oak Lane', '5556789012','1983-11-01');
+INSERT INTO passenger VALUES (100142,'Luke Reed','M','97 Maple Avenue', '5555678901','1999-06-22');
+INSERT INTO passenger VALUES (100143,'Lila Allen','F','31 Pine Street', '5557890123','1974-08-25');
+INSERT INTO passenger VALUES (100144,'Jaxon Cook','M','65 Cedar Drive', '5554567890','1991-03-16');
+INSERT INTO passenger VALUES (100145,'Olivia Lee','F','12 Elm Street', '5559012345','1978-07-09');
+INSERT INTO passenger VALUES (100146,'Ethan Martin','M','78 Willow Road', '5551234567','1993-12-05');
+
+
+
+
+Aircraft: 60
+
+
+INSERT INTO aircraft VALUES (100001,'Boeing 737',170,15000,'Commercial', 5);
+INSERT INTO aircraft VALUES (100002,'Airbus A320',190,17000,'Commercial', 2);
+INSERT INTO aircraft VALUES (100003,'Boeing 777',280,18000,'Commercial', 14);
+INSERT INTO aircraft VALUES (100004,'Boeing 747-8',400,19000,'Commercial', 7);
+INSERT INTO aircraft VALUES (100005,'Airbus A380',500,20000,'Commercial', 9);
+INSERT INTO aircraft VALUES (100006,'Boeing 767',200,14000,'Cargo', 12);
+INSERT INTO aircraft VALUES (100007,'Boeing 787',250,16000,'Cargo', 18);
+INSERT INTO aircraft VALUES (100008,'Airbus A330',300,17000,'Cargo', 3);
+INSERT INTO aircraft VALUES (100009,'Boeing 757',180,13000,'Commercial', 6);
+INSERT INTO aircraft VALUES (100010,'Airbus A319',150,12000,'Commercial', 21);
+INSERT INTO aircraft VALUES (100011,'Boeing 737-800',170,16000,'Commercial', 1);
+INSERT INTO aircraft VALUES (100012,'Airbus A321',200,17500,'Commercial', 2);
+INSERT INTO aircraft VALUES (100013,'Boeing 747-400',375,18500,'Commercial', 3);
+INSERT INTO aircraft VALUES (100014,'Boeing 777-200',280,17000,'Commercial', 4);
+INSERT INTO aircraft VALUES (100015,'Airbus A350',300,19000,'Commercial', 5);
+INSERT INTO aircraft VALUES (100016,'Boeing 787-9',250,15500,'Commercial', 6);
+INSERT INTO aircraft VALUES (100017,'Airbus A320neo',180,13000,'Commercial', 7);
+INSERT INTO aircraft VALUES (100018,'Boeing 737 MAX',200,16500,'Commercial', 8);
+INSERT INTO aircraft VALUES (100019,'Boeing 767-300',220,15000,'Commercial', 9);
+INSERT INTO aircraft VALUES (100020,'Airbus A330-200',260,17500,'Commercial', 10);
+INSERT INTO aircraft VALUES (100021,'Boeing 757-200',200,14000,'Commercial', 11);
+INSERT INTO aircraft VALUES (100022,'Airbus A380-800',500,20000,'Commercial', 12);
+INSERT INTO aircraft VALUES (100023,'Boeing 747-8i',410,19500,'Commercial', 13);
+INSERT INTO aircraft VALUES (100024,'Boeing 737-700',150,12000,'Commercial', 14);
+INSERT INTO aircraft VALUES (100025,'Airbus A319neo',140,11000,'Commercial', 15);
+INSERT INTO aircraft VALUES (100026,'Boeing 737-900ER',215,17000,'Commercial', 16);
+INSERT INTO aircraft VALUES (100027,'Boeing 777-300ER',396,19500,'Commercial', 17);
+INSERT INTO aircraft VALUES (100028,'Airbus A330-300',335,19000,'Commercial', 18);
+INSERT INTO aircraft VALUES (100029,'Boeing 757-300',243,16500,'Commercial', 19);
+INSERT INTO aircraft VALUES (100030,'Airbus A321neo',240,16000,'Commercial', 20);
+INSERT INTO aircraft VALUES (100031,'Boeing 737-600',110,10000,'Commercial', 21);
+INSERT INTO aircraft VALUES (100032,'Boeing 777-200LR',280,18000,'Commercial', 1);
+INSERT INTO aircraft VALUES (100033,'Boeing 747-400ER',375,19000,'Commercial', 2);
+INSERT INTO aircraft VALUES (100034,'Airbus A380-900',550,21000,'Commercial', 3);
+INSERT INTO aircraft VALUES (100035,'Boeing 787-10',330,18500,'Commercial', 4);
+INSERT INTO aircraft VALUES (100036,'Boeing 737-500',132,11000,'Commercial', 5);
+INSERT INTO aircraft VALUES (100037,'Airbus A320ceo',180,13500,'Commercial', 6);
+INSERT INTO aircraft VALUES (100038,'Boeing 737-300',150,13000,'Commercial', 7);
+INSERT INTO aircraft VALUES (100039,'Boeing 767-400',296,17500,'Commercial', 8);
+INSERT INTO aircraft VALUES (100040,'Airbus A330-900neo',440,19500,'Commercial', 9);
+INSERT INTO aircraft VALUES (100041,'Boeing 737-400',150,13500,'Commercial', 10);
+INSERT INTO aircraft VALUES (100042,'Airbus A340-600',419,20000,'Commercial', 11);
+INSERT INTO aircraft VALUES (100043,'Boeing 787-8',242,15500,'Commercial', 12);
+INSERT INTO aircraft VALUES (100044,'Boeing 747-400F',0,20000,'Cargo', 13);
+INSERT INTO aircraft VALUES (100045,'Airbus A330-200F',0,19000,'Cargo', 14);
+INSERT INTO aircraft VALUES (100046,'Boeing 777F',0,18000,'Cargo', 15);
+INSERT INTO aircraft VALUES (100047,'Airbus A300-600F',0,17000,'Cargo', 16);
+INSERT INTO aircraft VALUES (100048,'Boeing 747-400BCF',0,19500,'Cargo', 17);
+INSERT INTO aircraft VALUES (100049,'Airbus A330-800neo',250,17000,'Commercial', 18);
+INSERT INTO aircraft VALUES (100050,'Boeing 737-8 MAX',210,16500,'Commercial', 19);
+INSERT INTO aircraft VALUES (100051,'Boeing 737-9 MAX',220,17000,'Commercial', 20);
+INSERT INTO aircraft VALUES (100052,'Airbus A321LR',240,16500,'Commercial', 21);
+INSERT INTO aircraft VALUES (100053,'Boeing 757-200SF',0,15500,'Cargo', 1);
+INSERT INTO aircraft VALUES (100054,'Boeing 767-300F',0,17500,'Cargo', 2);
+INSERT INTO aircraft VALUES (100055,'Airbus A330-200P2F',0,18500,'Cargo', 3);
+INSERT INTO aircraft VALUES (100056,'Boeing 747-400ERF',0,20500,'Cargo', 4);
+INSERT INTO aircraft VALUES (100057,'Boeing 777-200LRF',0,19500,'Cargo', 5);
+INSERT INTO aircraft VALUES (100058,'Airbus A350-900ULR',310,19500,'Commercial', 6);
+INSERT INTO aircraft VALUES (100059,'Boeing 737-7 MAX',150,13000,'Commercial', 7);
+INSERT INTO aircraft VALUES (100060,'Boeing 767-200',255,16000,'Commercial', 8);
+
+
+Employee: 120
+
+
+INSERT INTO employee VALUES (1, 1, 'John Smith', 'New York', '1234567890', 'M', 'Pilot', 100000, '1985-01-20');
+INSERT INTO employee VALUES (2, 2, 'Sarah Lee', 'Los Angeles', '2345678901', 'F', 'Flight Attendant', 60000, '1990-02-14');
+INSERT INTO employee VALUES (3, 3, 'David Chen', 'San Francisco', '3456789012', 'M', 'Air Traffic Controller', 80000, '1987-05-07');
+INSERT INTO employee VALUES (4, 4, 'Karen Kim', 'Chicago', '4567890123', 'F', 'Ground Staff', 45000, '1995-11-30');
+INSERT INTO employee VALUES (5, 5, 'James Lee', 'Miami', '5678901234', 'M', 'Mechanic', 55000, '1988-09-22');
+INSERT INTO employee VALUES (6, 6, 'Ava Zhang', 'London', '6789012345', 'F', 'Customer Service Representative', 40000, '1993-12-17');
+INSERT INTO employee VALUES (7, 7, 'Benjamin Park', 'Paris', '7890123456', 'M', 'Security Officer', 50000, '1989-07-04');
+INSERT INTO employee VALUES (8, 8, 'Olivia Wang', 'Dubai', '8901234567', 'F', 'Baggage Handler', 35000, '1992-03-11');
+INSERT INTO employee VALUES (9, 9, 'William Chen', 'Tokyo', '9012345678', 'M', 'Cabin Crew', 55000, '1991-08-02');
+INSERT INTO employee VALUES (10, 10, 'Sophia Li', 'Sydney', '0123456789', 'F', 'Maintenance Technician', 60000, '1994-06-28');
+INSERT INTO employee VALUES (11, 1, 'Emma Wilson', 'Newark', '2345678901', 'F', 'Pilot', 120000, '1980-05-10');
+INSERT INTO employee VALUES (12, 2, 'Jacob Brown', 'San Francisco', '3456789012', 'M', 'Flight Attendant', 65000, '1993-04-22');
+INSERT INTO employee VALUES (13, 3, 'Isabella Davis', 'New York', '4567890123', 'F', 'Air Traffic Controller', 90000, '1984-07-03');
+INSERT INTO employee VALUES (14, 4, 'Ethan Johnson', 'Los Angeles', '5678901234', 'M', 'Ground Staff', 50000, '1996-02-11');
+INSERT INTO employee VALUES (15,5, 'Mia Garcia', 'Chicago', '6789012345', 'F', 'Mechanic', 60000, '1991-09-01');
+INSERT INTO employee VALUES (16, 6, 'Noah Lee', 'Miami', '7890123456', 'M', 'Customer Service Representative', 45000, '1989-06-08');
+INSERT INTO employee VALUES (17, 7, 'Avery Smith', 'London', '8901234567', 'F', 'Security Officer', 55000, '1994-03-14');
+INSERT INTO employee VALUES (18, 8, 'Liam Johnson', 'Paris', '9012345678', 'M', 'Baggage Handler', 40000, '1988-10-18');
+INSERT INTO employee VALUES (19, 9, 'Emma Chen', 'Dubai', '0123456789', 'F', 'Cabin Crew', 60000, '1992-08-29');
+INSERT INTO employee VALUES (20, 10, 'Mason Kim', 'Tokyo', '9876543210', 'M', 'Maintenance Technician', 70000, '1986-11-24');
+INSERT INTO employee VALUES (21, 1, 'Ava Rodriguez', 'New York', '2345678901', 'F', 'Pilot', 110000, '1983-12-01');
+INSERT INTO employee VALUES (22, 2, 'Ethan Lee', 'Los Angeles', '3456789012', 'M', 'Flight Attendant', 70000, '1994-02-12');
+INSERT INTO employee VALUES (23, 3, 'Sofia Lee', 'San Francisco', '4567890123', 'F', 'Air Traffic Controller', 95000, '1982-06-03');
+INSERT INTO employee VALUES (24, 4, 'Mason Johnson', 'Chicago', '5678901234', 'M', 'Ground Staff', 55000, '1995-03-19');
+INSERT INTO employee VALUES (25, 5, 'Amelia Davis', 'Miami', '6789012345', 'F', 'Mechanic', 65000, '1990-10-08');
+INSERT INTO employee VALUES (26, 6, 'William Brown', 'London', '7890123456', 'M', 'Customer Service Representative', 50000, '1988-08-21');
+INSERT INTO employee VALUES (27, 7, 'Abigail Chen', 'Paris', '8901234567', 'F', 'Security Officer', 60000, '1993-05-11');
+INSERT INTO employee VALUES (28, 8, 'Michael Wilson', 'Dubai', '9012345678', 'M', 'Baggage Handler', 45000, '1989-02-17');
+INSERT INTO employee VALUES (29, 9, 'Aria Davis', 'Tokyo', '0123456789', 'F', 'Cabin Crew', 55000, '1992-09-28');
+INSERT INTO employee VALUES (30, 10, 'James Kim', 'Newark', '9876543210', 'M', 'Maintenance Technician', 75000, '1985-04-12');
+INSERT INTO employee VALUES (31, 1, 'Aiden Johnson', 'San Francisco', '2345678901', 'M', 'Pilot', 130000, '1979-11-15');
+INSERT INTO employee VALUES (32, 2, 'Chloe Lee', 'New York', '3456789012', 'F', 'Flight Attendant', 68000, '1993-01-28');
+INSERT INTO employee VALUES (33, 3, 'Avery Wilson', 'Los Angeles', '4567890123', 'M', 'Air Traffic Controller', 92000, '1981-05-07');
+INSERT INTO employee VALUES (34, 4, 'Samantha Davis', 'Chicago', '5678901234', 'F', 'Ground Staff', 52000, '1996-09-23');
+INSERT INTO employee VALUES (35,5, 'Daniel Johnson', 'Miami', '6789012345', 'M', 'Mechanic', 58000, '1991-03-20');
+INSERT INTO employee VALUES (36, 6, 'Ella Smith', 'London', '7890123456', 'F', 'Customer Service Representative', 47000, '1989-02-09');
+INSERT INTO employee VALUES (37, 7, 'Luke Chen', 'Paris', '8901234567', 'M', 'Security Officer', 57000, '1994-06-02');
+INSERT INTO employee VALUES (38, 8, 'Nora Lee', 'Dubai', '9012345678', 'F', 'Baggage Handler', 42000, '1987-09-15');
+INSERT INTO employee VALUES (39, 9, 'Oliver Garcia', 'Tokyo', '0123456789', 'M', 'Cabin Crew', 63000, '1990-11-18');
+INSERT INTO employee VALUES (40, 10, 'Aria Rodriguez', 'Newark', '9876543210', 'F', 'Maintenance Technician', 72000, '1984-07-06');
+INSERT INTO employee VALUES (41, 1, 'Benjamin Brown', 'Los Angeles', '2345678901', 'M', 'Pilot', 125000, '1980-01-12');
+INSERT INTO employee VALUES (42, 2, 'Elizabeth Davis', 'San Francisco', '3456789012', 'F', 'Flight Attendant', 71000, '1993-08-16');
+INSERT INTO employee VALUES (43, 3, 'Alexander Johnson', 'New York', '4567890123', 'M', 'Air Traffic Controller', 95000, '1982-04-25');
+INSERT INTO employee VALUES (44, 4, 'Sophia Wilson', 'Chicago', '5678901234', 'F', 'Ground Staff', 54000, '1995-12-07');
+INSERT INTO employee VALUES (45, 5, 'David Smith', 'Miami', '6789012345', 'M', 'Mechanic', 60000, '1990-06-22');
+INSERT INTO employee VALUES (46, 6, 'Emma Johnson', 'London', '7890123456', 'F', 'Customer Service Representative', 49000, '1988-03-03');
+INSERT INTO employee VALUES (47, 7, 'Jacob Chen', 'Paris', '8901234567', 'M', 'Security Officer', 58000, '1992-07-17');
+INSERT INTO employee VALUES (48, 8, 'Isabella Lee', 'Dubai', '9012345678', 'F', 'Baggage Handler', 43000, '1986-10-30');
+INSERT INTO employee VALUES (49, 9, 'Ethan Garcia', 'Tokyo', '0123456789', 'M', 'Cabin Crew', 64000, '1989-12-31');
+INSERT INTO employee VALUES (50, 10, 'Mia Rodriguez', 'Newark', '9876543210', 'F', 'Maintenance Technician', 73000, '1983-08-12');
+INSERT INTO employee VALUES (51, 1, 'William Brown', 'San Francisco', '2345678901', 'M', 'Pilot', 135000, '1978-02-01');
+INSERT INTO employee VALUES (52, 2, 'Emily Davis', 'New York', '3456789012', 'F', 'Flight Attendant', 69000, '1992-05-22');
+INSERT INTO employee VALUES (53, 3, 'Christopher Johnson', 'Los Angeles', '4567890123', 'M', 'Air Traffic Controller', 94000, '1980-09-14');
+INSERT INTO employee VALUES (54, 4, 'Madison Wilson', 'Chicago', '5678901234', 'F', 'Ground Staff', 56000, '1997-01-04');
+INSERT INTO employee VALUES (55,5, 'Evelyn Smith', 'Miami', '6789012345', 'F', 'Mechanic', 62000, '1991-07-11');
+INSERT INTO employee VALUES (56, 6, 'Aiden Johnson', 'London', '7890123456', 'M', 'Customer Service Representative', 51000, '1989-09-28');
+INSERT INTO employee VALUES (57, 7, 'Sophia Chen', 'Paris', '8901234567', 'F', 'Security Officer', 59000, '1994-11-13');
+INSERT INTO employee VALUES (58, 8, 'Ethan Lee', 'Dubai', '9012345678', 'M', 'Baggage Handler', 44000, '1987-04-26');
+INSERT INTO employee VALUES (59,9, 'Emma Garcia', 'Tokyo', '0123456789', 'F', 'Cabin Crew', 65000, '1990-06-29');
+INSERT INTO employee VALUES (60, 10, 'Noah Rodriguez', 'Newark', '9876543210', 'M', 'Maintenance Technician', 75000, '1984-11-19');
+INSERT INTO employee VALUES (61, 1, 'Olivia Johnson', 'Los Angeles', '2345678901', 'F', 'Air Traffic Controller', 95000, '1983-06-15');
+INSERT INTO employee VALUES (62, 2, 'Liam Wilson', 'Chicago', '3456789012', 'M', 'Ground Staff', 52000, '1998-03-24');
+INSERT INTO employee VALUES (63, 3, 'Ava Smith', 'Miami', '4567890123', 'F', 'Mechanic', 61000, '1993-09-09');
+INSERT INTO employee VALUES (64, 4, 'Jackson Johnson', 'London', '5678901234', 'M', 'Customer Service Representative', 50000, '1996-02-18');
+INSERT INTO employee VALUES (65, 5, 'Sophia Chen', 'Paris', '6789012345', 'F', 'Security Officer', 60000, '1991-05-21');
+INSERT INTO employee VALUES (66, 6, 'Logan Lee', 'Dubai', '7890123456', 'M', 'Baggage Handler', 45000, '1985-12-04');
+INSERT INTO employee VALUES (67, 7, 'Emma Garcia', 'Tokyo', '8901234567', 'F', 'Cabin Crew', 66000, '1994-04-17');
+INSERT INTO employee VALUES (68, 8, 'Oliver Rodriguez', 'Newark', '9012345678', 'M', 'Maintenance Technician', 77000, '1990-08-30');
+INSERT INTO employee VALUES (69, 9, 'Ava Johnson', 'Los Angeles', '0123456789', 'F', 'Air Traffic Controller', 96000, '1986-02-11');
+INSERT INTO employee VALUES (70, 10, 'William Wilson', 'Chicago', '2345678901', 'M', 'Ground Staff', 54000, '1999-07-02');
+INSERT INTO employee VALUES (71, 1, 'Sophia Smith', 'Miami', '3456789012', 'F', 'Mechanic', 63000, '1992-11-24');
+INSERT INTO employee VALUES (72, 2, 'Michael Johnson', 'London', '4567890123', 'M', 'Customer Service Representative', 51000, '1988-05-06');
+INSERT INTO employee VALUES (73, 3, 'Emma Chen', 'Paris', '5678901234', 'F', 'Security Officer', 61000, '1995-09-07');
+INSERT INTO employee VALUES (74, 4, 'Noah Lee', 'Dubai', '6789012345', 'M', 'Baggage Handler', 46000, '1998-03-20');
+INSERT INTO employee VALUES (75, 5, 'Avery Garcia', 'Tokyo', '7890123456', 'F', 'Cabin Crew', 67000, '1989-06-23');
+INSERT INTO employee VALUES (76, 6, 'Sophia Rodriguez', 'Newark', '8901234567', 'F', 'Maintenance Technician', 78000, '1993-01-15');
+INSERT INTO employee VALUES (77, 7, 'Jacob Johnson', 'Los Angeles', '9012345678', 'M', 'Air Traffic Controller', 97000, '1987-04-27');
+INSERT INTO employee VALUES (78, 8, 'Olivia Wilson', 'Chicago', '0123456789', 'F', 'Ground Staff', 55000, '1996-10-08');
+INSERT INTO employee VALUES (79, 9, 'Noah Smith', 'Miami', '2345678901', 'M', 'Mechanic', 64000, '1991-02-01');
+INSERT INTO employee VALUES (80, 10, 'Mia Johnson', 'London', '3456789012', 'F', 'Customer Service Representative', 52000, '1994-07-14');
+INSERT INTO employee VALUES (81, 1, 'Liam Chen', 'Paris', '4567890123', 'M', 'Security Officer', 62000, '1997-12-27');
+INSERT INTO employee VALUES (82, 1, 'Emma Lee', 'Dubai', '5678901234', 'F', 'Baggage Handler', 47000, '1989-05-02');
+INSERT INTO employee VALUES (83, 2, 'Ava Garcia', 'Tokyo', '6789012345', 'F', 'Cabin Crew', 68000, '1990-09-25');
+INSERT INTO employee VALUES (84, 3, 'Liam Rodriguez', 'Newark', '7890123456', 'M', 'Maintenance Technician', 79000, '1992-02-07');
+INSERT INTO employee VALUES (85, 4, 'Sophia Johnson', 'Los Angeles', '9012345678', 'F', 'Air Traffic Controller', 98000, '1988-06-20');
+INSERT INTO employee VALUES (86, 5, 'Mia Wilson', 'Chicago', '0123456789', 'F', 'Ground Staff', 56000, '1995-11-12');
+INSERT INTO employee VALUES (87, 6, 'Noah Smith', 'Miami', '2345678901', 'M', 'Mechanic', 65000, '1987-03-05');
+INSERT INTO employee VALUES (88, 7, 'Jacob Johnson', 'London', '3456789012', 'M', 'Customer Service Representative', 53000, '1990-08-18');
+INSERT INTO employee VALUES (89, 8, 'Emma Chen', 'Paris', '4567890123', 'F', 'Security Officer', 63000, '1993-01-31');
+INSERT INTO employee VALUES (90, 9, 'Oliver Lee', 'Dubai', '5678901234', 'M', 'Baggage Handler', 48000, '1998-07-03');
+INSERT INTO employee VALUES (91, 10, 'Avery Garcia', 'Tokyo', '6789012345', 'F', 'Cabin Crew', 69000, '1994-11-25');
+INSERT INTO employee VALUES (92, 1, 'Liam Rodriguez', 'Newark', '7890123456', 'M', 'Maintenance Technician', 80000, '1997-05-08');
+INSERT INTO employee VALUES (93, 2, 'Mia Johnson', 'Los Angeles', '9012345678', 'F', 'Air Traffic Controller', 99000, '1983-08-21');
+INSERT INTO employee VALUES (94, 3, 'Noah Wilson', 'Chicago', '0123456789', 'M', 'Ground Staff', 57000, '1996-01-14');
+INSERT INTO employee VALUES (95, 4, 'Olivia Smith', 'Miami', '2345678901', 'F', 'Mechanic', 66000, '1990-05-27');
+INSERT INTO employee VALUES (96, 5, 'Liam Lee', 'London', '3456789012', 'M', 'Customer Service Representative', 54000, '1993-11-08');
+INSERT INTO employee VALUES (97, 6, 'Ava Chen', 'Paris', '4567890123', 'F', 'Security Officer', 64000, '1986-04-21');
+INSERT INTO employee VALUES (98, 7, 'Emma Wilson', 'Dubai', '5678901234', 'F', 'Baggage Handler', 49000, '1995-09-02');
+INSERT INTO employee VALUES (99, 8, 'Sophia Garcia', 'Tokyo', '6789012345', 'F', 'Cabin Crew', 70000, '1991-01-25');
+INSERT INTO employee VALUES (100, 9, 'Liam Rodriguez', 'Newark', '7890123456', 'M', 'Maintenance Technician', 81000, '1994-06-07');
+INSERT INTO employee VALUES (101, 10, 'Mia Johnson', 'Los Angeles', '9012345678', 'F', 'Air Traffic Controller', 100000, '1989-09-20');
+INSERT INTO employee VALUES (102, 1, 'Noah Smith', 'Chicago', '0123456789', 'M', 'Ground Staff', 58000, '1992-02-12');
+INSERT INTO employee VALUES (103, 1, 'Olivia Wilson', 'Miami', '2345678901', 'F', 'Mechanic', 67000, '1988-06-25');
+INSERT INTO employee VALUES (104, 2, 'Jacob Johnson', 'London', '3456789012', 'M', 'Customer Service Representative', 55000, '1997-11-08');
+INSERT INTO employee VALUES (105, 3, 'Emma Chen', 'Paris', '4567890123', 'F', 'Security Officer', 65000, '1990-04-21');
+INSERT INTO employee VALUES (106, 4, 'Liam Lee', 'Dubai', '5678901234', 'M', 'Baggage Handler', 50000, '1995-09-02');
+INSERT INTO employee VALUES (107, 5, 'Ava Garcia', 'Tokyo', '6789012345', 'F', 'Cabin Crew', 71000, '1993-01-25');
+INSERT INTO employee VALUES (108, 6, 'Sophia Rodriguez', 'Newark', '7890123456', 'F', 'Maintenance Technician', 82000, '1987-06-07');
+INSERT INTO employee VALUES (109, 7, 'Noah Wilson', 'Los Angeles', '9012345678', 'M', 'Air Traffic Controller', 101000, '1996-02-20');
+INSERT INTO employee VALUES (110, 8, 'Olivia Smith', 'Chicago', '0123456789', 'F', 'Ground Staff', 59000, '1992-02-12');
+INSERT INTO employee VALUES (111,5,'Jim Halpert','Scranton','1234567890','M','Salesman',50000,'1990-05-01');
+INSERT INTO employee VALUES (112,6,'Pam Beesly','Scranton','2345678901','F','Receptionist',40000,'1991-07-17');
+INSERT INTO employee VALUES (113,7,'Dwight Schrute','Scranton','3456789012','M','Assistant to the Regional Manager',45000,'1989-12-30');
+INSERT INTO employee VALUES (114,1,'Angela Martin','Scranton','4567890123','F','Head of Accounting',55000,'1988-06-25');
+INSERT INTO employee VALUES (115,8,'Kevin Malone','Scranton','5678901234','M','Accountant',35000,'1992-03-12');
+INSERT INTO employee VALUES (116,9,'Stanley Hudson','Scranton','6789012345','M','Salesman',48000,'1987-09-19');
+INSERT INTO employee VALUES (117,1,'Phyllis Vance','Scranton','7890123456','F','Saleswoman',45000,'1986-11-15');
+INSERT INTO employee VALUES (118,4,'Meredith Palmer','Scranton','8901234567','F','Supplier Relations',38000,'1993-02-25');
+INSERT INTO employee VALUES (119,3,'Creed Bratton','Scranton','9012345678','M','Quality Assurance',40000,'1985-08-29');
+INSERT INTO employee VALUES (120,4,'Ryan Howard','Scranton','0123456789','M','Temp',30000,'1994-04-20');
+
+
+Airport: 10
+
+
+INSERT INTO airport VALUES (1,'Sardar Vallabhbhai Patel International Airport','Ahmedabad','Gujarat','India');
+INSERT INTO airport VALUES (2, 'Indira Gandhi International Airport', 'New Delhi', 'Delhi', 'India');
+INSERT INTO airport VALUES (3, 'Chhatrapati Shivaji Maharaj International Airport', 'Mumbai', 'Maharashtra', 'India');
+INSERT INTO airport VALUES (4, 'Kempegowda Airport', 'Bengaluru', 'Karnataka', 'India');
+INSERT INTO airport VALUES (5, 'Chennai International Airport', 'Chennai', 'Tamil Nadu', 'India');
+INSERT INTO airport VALUES (6, 'John F. Kennedy International Airport', 'New York City', 'New York', 'USA');
+INSERT INTO airport VALUES (7, 'Los Angeles International Airport', 'Los Angeles', 'California', 'USA');
+INSERT INTO airport VALUES (8, 'Chicago O Hare Airport', 'Chicago', 'Illinois', 'USA');
+INSERT INTO airport VALUES (9, 'Toronto Pearson International Airport', 'Toronto', 'Ontario', 'Canada');
+INSERT INTO airport VALUES (10, 'Dubai International Airport', 'Dubai', 'Dubai', 'UAE');
+
+
+Terminal: 18
+
+
+Only domestic in 4 and 8 airport_id
+
+
+INSERT INTO terminal VALUES (1, 1,'International');
+INSERT INTO terminal VALUES (1, 2, 'Domestic');
+INSERT INTO terminal VALUES (2, 1, 'International');
+INSERT INTO terminal VALUES (2, 2, 'Domestic');
+INSERT INTO terminal VALUES (3, 1, 'International');
+INSERT INTO terminal VALUES (3, 2, 'Domestic');
+INSERT INTO terminal VALUES (4, 2, 'Domestic');
+INSERT INTO terminal VALUES (5, 1, 'International');
+INSERT INTO terminal VALUES (5, 2, 'Domestic');
+INSERT INTO terminal VALUES (6, 1, 'International');
+INSERT INTO terminal VALUES (6, 2, 'Domestic');
+INSERT INTO terminal VALUES (7, 1, 'International');
+INSERT INTO terminal VALUES (7, 2, 'Domestic');
+INSERT INTO terminal VALUES (8, 2, 'Domestic');
+INSERT INTO terminal VALUES (9, 1, 'International');
+INSERT INTO terminal VALUES (9, 2, 'Domestic');
+INSERT INTO terminal VALUES (10, 1, 'International');
+INSERT INTO terminal VALUES (10, 2, 'Domestic');
+
+
+
+
+Amenities: 54
+
+
+INSERT INTO amenity VALUES (1, 1, 1, 'Bath And Body Works', 'Personal Care');
+INSERT INTO amenity VALUES (2, 1, 1, 'Hudson News', 'Books and News');
+INSERT INTO amenity VALUES (3, 1, 1, 'Starbucks', 'Food and Drinks');
+INSERT INTO amenity VALUES (4, 1, 2, 'Duty Free', 'Luxury Goods');
+INSERT INTO amenity VALUES (5, 1, 2, 'Victoria Secret', 'Personal Care');
+INSERT INTO amenity VALUES (6, 1, 2, 'InMotion Entertainment', 'Electronics');
+INSERT INTO amenity VALUES (7, 2, 1, 'MAC Cosmetics', 'Personal Care');
+INSERT INTO amenity VALUES (8, 2, 1, 'Dunkin Donuts', 'Food and Drinks');
+INSERT INTO amenity VALUES (9, 2, 1, 'Brookstone', 'Electronics');
+INSERT INTO amenity VALUES (10, 2, 2, 'Coach', 'Luxury Goods');
+INSERT INTO amenity VALUES (11, 2, 2, 'Tech on the Go', 'Electronics');
+INSERT INTO amenity VALUES (12, 2, 2, 'Cinnabon', 'Food and Drinks');
+INSERT INTO amenity VALUES (13, 3, 1, 'LOccitane', 'Personal Care');
+INSERT INTO amenity VALUES (14, 3, 1, 'CNBC', 'Books and News');
+INSERT INTO amenity VALUES (15, 3, 1, 'Jamba Juice', 'Food and Drinks');
+INSERT INTO amenity VALUES (16, 3, 2, 'Tumi', 'Luxury Goods');
+INSERT INTO amenity VALUES (17, 3, 2, 'Bose', 'Electronics');
+INSERT INTO amenity VALUES (18, 3, 2, 'Pinkberry', 'Food and Drinks');
+INSERT INTO amenity VALUES (22, 4, 2, 'Michael Kors', 'Luxury Goods');
+INSERT INTO amenity VALUES (23, 4, 2, 'Apple', 'Electronics');
+INSERT INTO amenity VALUES (24, 4, 2, 'Caffè Nero', 'Food and Drinks');
+INSERT INTO amenity VALUES (25, 5, 1, 'Kiehls', 'Personal Care');
+INSERT INTO amenity VALUES (26, 5, 1, 'The Economist', 'Books and News');
+INSERT INTO amenity VALUES (27, 5, 1, 'Pret A Manger', 'Food and Drinks');
+INSERT INTO amenity VALUES (28, 5, 2, 'Tiffany & Co.', 'Luxury Goods');
+INSERT INTO amenity VALUES (29, 5, 2, 'Samsung', 'Electronics');
+INSERT INTO amenity VALUES (30, 5, 2, 'Burger King', 'Food and Drinks');
+INSERT INTO amenity VALUES (31, 6, 1, 'Clinique', 'Personal Care');
+INSERT INTO amenity VALUES (32, 6, 1, 'New York Times', 'Books and News');
+INSERT INTO amenity VALUES (33, 6, 1, 'Cinnabon', 'Food and Drinks');
+INSERT INTO amenity VALUES (34, 6, 2, 'Burberry', 'Luxury Goods');
+INSERT INTO amenity VALUES (35, 6, 2, 'Microsoft', 'Electronics');
+INSERT INTO amenity VALUES (36, 6, 2, 'Starbucks', 'Food and Drinks');
+INSERT INTO amenity VALUES (37, 7, 1, 'Estée Lauder', 'Personal Care');
+INSERT INTO amenity VALUES (38, 7, 1, 'Time Magazine', 'Books and News');
+INSERT INTO amenity VALUES (39, 7, 1, 'Dunkin Donuts', 'Food and Drinks');
+INSERT INTO amenity VALUES (40, 7, 2, 'Chanel', 'Luxury Goods');
+INSERT INTO amenity VALUES (41, 7, 2, 'Sony', 'Electronics');
+INSERT INTO amenity VALUES (42, 7, 2, 'Subway', 'Food and Drinks');
+INSERT INTO amenity VALUES (46, 8, 2, 'Louis Vuitton', 'Luxury Goods');
+INSERT INTO amenity VALUES (47, 8, 2, 'Apple', 'Electronics');
+INSERT INTO amenity VALUES (48, 8, 2, 'Pizza Hut', 'Food and Drinks');
+INSERT INTO amenity VALUES (49, 9, 1, 'MAC Cosmetics', 'Personal Care');
+INSERT INTO amenity VALUES (50, 9, 1, 'The Wall Street Journal', 'Books and News');
+INSERT INTO amenity VALUES (51, 9, 1, 'Pret A Manger', 'Food and Drinks');
+INSERT INTO amenity VALUES (52, 9, 2, 'Gucci', 'Luxury Goods');
+INSERT INTO amenity VALUES (53, 9, 2, 'Samsung', 'Electronics');
+INSERT INTO amenity VALUES (54, 9, 2, 'Dunkin Donuts', 'Food and Drinks');
+INSERT INTO amenity VALUES (55, 10, 1, 'LOccitane', 'Personal Care');
+INSERT INTO amenity VALUES (56, 10, 1, 'The Economist', 'Books and News');
+INSERT INTO amenity VALUES (57, 10, 1, 'Starbucks', 'Food and Drinks');
+INSERT INTO amenity VALUES (58, 10, 2, 'Prada', 'Luxury Goods');
+INSERT INTO amenity VALUES (59, 10, 2, 'HP', 'Electronics');
+INSERT INTO amenity VALUES (60, 10, 2, 'Subway', 'Food and Drinks');
+
+
+
+
+Parking:
+
+
+INSERT INTO parking VALUES (1,1,1,56,'rupees',744);
+INSERT INTO parking VALUES (2,1,2,86,'rupees',521);
+INSERT INTO parking VALUES (2,2,1,73,'rupees',420);
+INSERT INTO parking VALUES (7,2,2,78,'rupees',830);
+INSERT INTO parking VALUES (8,3,1,54,'rupees',411);
+INSERT INTO parking VALUES (3,3,2,82,'rupees',954);
+INSERT INTO parking VALUES (9,4,2,91,'rupees',669);
+INSERT INTO parking VALUES (5,5,1,65,'rupees',294);
+INSERT INTO parking VALUES (5,5,2,51,'rupees',689);
+INSERT INTO parking VALUES (4,6,1,25,'USD',800);
+INSERT INTO parking VALUES (6,6,1,45,'USD',400);
+INSERT INTO parking VALUES (7,6,2,20,'USD',700);
+INSERT INTO parking VALUES (1,6,2,50,'USD',200);
+INSERT INTO parking VALUES (1,7,1,30,'USD',600);
+INSERT INTO parking VALUES (9,7,2,15,'USD',300);
+INSERT INTO parking VALUES (3,7,2,10,'USD',1000);
+INSERT INTO parking VALUES (7,8,2,35,'USD',900);
+INSERT INTO parking VALUES (6, 9, 1, 25, 'CAD', 600);
+INSERT INTO parking VALUES (9, 9, 2, 30, 'CAD', 900);
+INSERT INTO parking VALUES (3, 10, 1, 35, 'AED', 600);
+INSERT INTO parking VALUES (6, 10, 2, 20, 'AED', 800);
+
+
+
+
+Parking TIcket:
+
+
+INSERT INTO parking_ticket VALUES (101, 1, 1, 1, '2020-05-10 08:15:00', '2020-05-10 11:45:00');
+INSERT INTO parking_ticket VALUES (102, 2, 2, 1, '2020-06-01 12:30:00', '2020-06-01 15:45:00');
+INSERT INTO parking_ticket VALUES (103, 3, 3, 2, '2020-07-05 07:00:00', '2020-07-05 16:30:00');
+INSERT INTO parking_ticket VALUES (104, 9, 4, 2, '2020-08-03 09:45:00', '2020-08-03 18:15:00');
+INSERT INTO parking_ticket VALUES (105, 5, 5, 1, '2020-09-12 14:00:00', '2020-09-12 17:30:00');
+INSERT INTO parking_ticket VALUES (106, 6, 6, 1, '2020-10-18 06:30:00', '2020-10-18 09:45:00');
+INSERT INTO parking_ticket VALUES (107, 9, 7, 2, '2020-11-22 11:15:00', '2020-11-22 15:30:00');
+INSERT INTO parking_ticket VALUES (108, 7, 8, 2, '2020-12-15 08:00:00', '2020-12-15 13:45:00');
+INSERT INTO parking_ticket VALUES (109, 6, 9, 1, '2021-01-14 10:30:00', '2021-01-14 16:15:00');
+INSERT INTO parking_ticket VALUES (110, 3, 10, 1, '2021-02-20 13:45:00', '2021-02-20 18:30:00');
+INSERT INTO parking_ticket VALUES (111, 7, 2, 2, '2021-03-07 16:00:00', '2021-03-08 10:15:00');
+INSERT INTO parking_ticket VALUES (112, 3, 3, 2, '2021-04-02 11:30:00', '2021-04-02 14:45:00');
+INSERT INTO parking_ticket VALUES (113, 9, 4, 2, '2021-05-09 07:15:00', '2021-05-09 12:30:00');
+INSERT INTO parking_ticket VALUES (114, 5, 5, 1, '2021-06-13 09:45:00', '2021-06-13 14:00:00');
+INSERT INTO parking_ticket VALUES (115, 1, 6, 2, '2021-07-18 12:30:00', '2021-07-18 17:45:00');
+INSERT INTO parking_ticket VALUES (116, 9, 7, 2, '2021-08-23 14:00:00', '2021-08-23 19:15:00');
+INSERT INTO parking_ticket VALUES (117, 7, 8, 2, '2021-09-19 06:15:00', '2021-09-19 11:30:00');
+INSERT INTO parking_ticket VALUES (118, 6, 9, 1, '2021-10-24 08:30:00', '2021-10-24 13:45:00');
+INSERT INTO parking_ticket VALUES (119, 6, 10, 2, '2021-11-28 10:00:00', '2021-11-28 15:15:00');
+INSERT INTO parking_ticket VALUES (120, 2, 1, 2, '2021-12-25 12:45:00', '2021-12-25 17:00:00');
+INSERT INTO parking_ticket VALUES (121, 8, 3, 1, '2022-01-15 15:00:00', '2022-01-15 18:15:00');
+INSERT INTO parking_ticket VALUES (122, 9, 4, 2, '2022-02-19 07:30:00', '2022-02-19 12:45:00');
+INSERT INTO parking_ticket VALUES (123, 5, 5, 2, '2022-03-22 11:00:00', '2022-03-22 16:15:00');
+INSERT INTO parking_ticket VALUES (124, 7, 6, 2, '2022-04-17 13:45:00', '2022-04-17 18:00:00');
+INSERT INTO parking_ticket VALUES (125, 1, 7, 1, '2022-05-21 16:30:00', '2022-05-21 19:45:00');
+INSERT INTO parking_ticket VALUES (126, 7, 8, 2, '2022-06-25 09:15:00', '2022-06-25 14:30:00');
+INSERT INTO parking_ticket VALUES (127, 9, 9, 2, '2022-07-30 11:00:00', '2022-07-30 16:15:00');
+INSERT INTO parking_ticket VALUES (128, 6, 10, 2, '2022-08-27 14:45:00', '2022-08-27 19:00:00');
+INSERT INTO parking_ticket VALUES (129, 1, 1, 1, '2022-09-12 07:30:00', '2022-09-12 10:45:00');
+INSERT INTO parking_ticket VALUES (130, 2, 2, 1, '2022-10-15 10:15:00', '2022-10-15 13:30:00');
+INSERT INTO parking_ticket VALUES (131, 9, 4, 2, '2022-11-20 12:00:00', '2022-11-20 17:15:00');
+INSERT INTO parking_ticket VALUES (132, 5, 5, 2, '2022-12-24 14:45:00', '2022-12-24 20:00:00');
+INSERT INTO parking_ticket VALUES (133, 4, 6, 1, '2023-01-16 06:30:00', '2023-01-16 11:45:00');
+INSERT INTO parking_ticket VALUES (134, 1, 7, 1, '2023-02-19 09:15:00', '2023-02-19 14:30:00');
+INSERT INTO parking_ticket VALUES (135, 7, 8, 2, '2023-03-25 11:00:00', '2023-03-25 16:15:00');
+INSERT INTO parking_ticket VALUES (136, 9, 9, 2, '2023-04-22 13:45:00', '2023-04-22 19:00:00');
+INSERT INTO parking_ticket VALUES (137, 3, 10, 1, '2023-05-20 16:30:00', '2023-05-20 21:45:00');
+INSERT INTO parking_ticket VALUES (138, 1, 1, 1, '2023-06-24 08:15:00', '2023-06-24 13:30:00');
+INSERT INTO parking_ticket VALUES (139, 7, 2, 2, '2023-07-29 11:00:00', '2023-07-29 16:15:00');
+INSERT INTO parking_ticket VALUES (140, 3, 3, 2, '2023-08-26 14:45:00', '2023-08-26 19:00:00');
+INSERT INTO parking_ticket VALUES (141, 5, 5, 1, '2023-09-11 07:30:00', '2023-09-11 12:45:00');
+INSERT INTO parking_ticket VALUES (142, 4, 6, 1, '2023-10-14 10:15:00', '2023-10-14 15:30:00');
+INSERT INTO parking_ticket VALUES (143, 9, 7, 2, '2023-11-19 12:00:00', '2023-11-19 17:15:00');
+INSERT INTO parking_ticket VALUES (144, 7, 8, 2, '2023-12-23 14:45:00', '2023-12-23 20:00:00');
+INSERT INTO parking_ticket VALUES (145, 6, 9, 1, '2024-01-15 06:30:00', '2024-01-15 11:45:00');
+INSERT INTO parking_ticket VALUES (146, 3, 10, 1, '2024-02-18 09:15:00', '2024-02-18 14:30:00');
+INSERT INTO parking_ticket VALUES (147, 2, 1, 2, '2024-03-23 11:00:00', '2024-03-23 16:15:00');
+INSERT INTO parking_ticket VALUES (148, 7, 2, 2, '2024-04-20 13:45:00', '2024-04-20 19:00:00');
+INSERT INTO parking_ticket VALUES (149, 8, 3, 1, '2024-05-18 16:30:00', '2024-05-18 21:45:00');
+INSERT INTO parking_ticket VALUES (150, 9, 4, 2, '2024-06-22 08:15:00', '2024-06-22 13:30:00');
+INSERT INTO parking_ticket VALUES (151, 1, 1, 1, '2018-01-05 08:30:00', '2018-01-05 13:45:00');
+INSERT INTO parking_ticket VALUES (152, 2, 2, 1, '2018-02-09 11:15:00', '2018-02-09 16:30:00');
+INSERT INTO parking_ticket VALUES (153, 3, 3, 2, '2018-03-16 13:00:00', '2018-03-16 18:15:00');
+INSERT INTO parking_ticket VALUES (154, 9, 4, 2, '2018-04-20 15:45:00', '2018-04-20 21:00:00');
+INSERT INTO parking_ticket VALUES (155, 5, 5, 1, '2018-05-18 07:30:00', '2018-05-18 12:45:00');
+INSERT INTO parking_ticket VALUES (156, 6, 6, 1, '2018-06-22 10:15:00', '2018-06-22 15:30:00');
+INSERT INTO parking_ticket VALUES (157, 9, 7, 2, '2018-07-27 12:00:00', '2018-07-27 17:15:00');
+INSERT INTO parking_ticket VALUES (158, 7, 8, 2, '2018-08-24 14:45:00', '2018-08-24 20:00:00');
+INSERT INTO parking_ticket VALUES (159, 9, 9, 2, '2018-09-21 06:30:00', '2018-09-21 11:45:00');
+INSERT INTO parking_ticket VALUES (160, 3, 10, 1, '2018-10-26 09:15:00', '2018-10-26 14:30:00');
+INSERT INTO parking_ticket VALUES (161, 2, 1, 2, '2018-11-30 11:00:00', '2018-11-30 16:15:00');
+INSERT INTO parking_ticket VALUES (162, 7, 2, 2, '2018-12-28 13:45:00', '2018-12-28 19:00:00');
+INSERT INTO parking_ticket VALUES (163, 8, 3, 1, '2019-01-25 16:30:00', '2019-01-25 21:45:00');
+checkpoint:
+
+
+Check Point
+
+
+INSERT INTO cpoint VALUES (1, 1, 1, 'No alcohol');
+INSERT INTO cpoint VALUES (2, 1, 1, 'No unaccompanied minors');
+INSERT INTO cpoint VALUES (1, 1, 2, 'No smoking or tobacco products');
+INSERT INTO cpoint VALUES (2, 1, 2, 'No fireworks or explosives');
+INSERT INTO cpoint VALUES (1, 2, 1, 'No pets allowed');
+INSERT INTO cpoint VALUES (2, 2, 1, 'No smoking or vaping');
+INSERT INTO cpoint VALUES (1, 2, 2, 'No dangerous or hazardous materials');
+INSERT INTO cpoint VALUES (2, 2, 2, 'No bikes or scooters');
+INSERT INTO cpoint VALUES (1, 3, 1, 'No large bags');
+INSERT INTO cpoint VALUES (2, 3, 1, 'No commercial photography');
+INSERT INTO cpoint VALUES (1, 3, 2, 'No unauthorized use of baggage carts');
+INSERT INTO cpoint VALUES (2, 3, 2, 'No unauthorized access');
+INSERT INTO cpoint VALUES (1, 4, 2, 'No unauthorized access to aircraft loading zones');
+INSERT INTO cpoint VALUES (2, 4, 2, 'No swimming or diving');
+INSERT INTO cpoint VALUES (1, 5, 1, 'No loitering');
+INSERT INTO cpoint VALUES (2, 5, 1, 'No soliciting or panhandling');
+INSERT INTO cpoint VALUES (1, 5, 2, 'No unauthorized access to airport equipment');
+INSERT INTO cpoint VALUES (2, 5, 2, 'No unauthorized sales or promotions');
+INSERT INTO cpoint VALUES (1, 6, 1, 'No soliciting');
+INSERT INTO cpoint VALUES (2, 6, 1, 'No bicycles');
+INSERT INTO cpoint VALUES (1, 6, 2, 'No unauthorized distribution of printed materials');
+INSERT INTO cpoint VALUES (2, 6, 2, 'No unauthorized filming or recording');
+INSERT INTO cpoint VALUES (1, 7, 1, 'No loud music');
+INSERT INTO cpoint VALUES (2, 7, 1, 'No carrying firearms or weapons');
+INSERT INTO cpoint VALUES (1, 7, 2, 'No unauthorized access to aircraft');
+INSERT INTO cpoint VALUES (2, 7, 2, 'No unattended bags');
+INSERT INTO cpoint VALUES (2, 8, 2, 'No unauthorized use of escalators or elevators');
+INSERT INTO cpoint VALUES (1, 8, 2, 'No running');
+INSERT INTO cpoint VALUES (1, 9, 1, 'No sleeping');
+INSERT INTO cpoint VALUES (2, 9, 1, 'No use of roller skates or blades');
+INSERT INTO cpoint VALUES (2, 9, 2, 'No unauthorized access to baggage claim');
+INSERT INTO cpoint VALUES (1, 9, 2, 'No fireworks');
+INSERT INTO cpoint VALUES (1, 10, 1, 'No gambling');
+INSERT INTO cpoint VALUES (2, 10, 1, 'No oversized musical instruments');
+INSERT INTO cpoint VALUES (1, 10, 2, 'No unauthorized solicitation or distribution of materials');
+INSERT INTO cpoint VALUES (2, 10, 2, 'No firearms');
+
+
+Flight:
+
+
+INSERT INTO flight VALUES (1,100002,'2020-05-10 10:30:00','2020-05-11 12:15:00','landed',1,1,9,1);
+INSERT INTO flight VALUES (2,100009,'2020-05-11 15:20:00','2020-05-12 17:45:00','in air',1,1,6,1);
+INSERT INTO flight VALUES (3,100054,'2020-05-13 08:00:00','2020-05-14 09:30:00','boarding',1,1,10,1);     -------c
+INSERT INTO flight VALUES (4,100034,'2021-02-15 11:30:00','2021-02-15 13:45:00','landed',1,2,2,2);
+INSERT INTO flight VALUES (5,100060,'2023-11-25 18:20:00','2023-11-25 22:05:00','boarding',1,2,3,2);
+INSERT INTO flight VALUES (6,100056,'2020-05-13 12:30:00','2020-05-15 14:45:00','landed',2,1,6,1);     -------c
+INSERT INTO flight VALUES (7,100044,'2022-08-21 15:30:00','2022-08-21 17:45:00','landed',2,2,3,2);     --------c
+INSERT INTO flight VALUES (8,100015,'2020-06-01 12:30:00','2020-06-02 13:45:00','landed',3,1,9,1);
+INSERT INTO flight VALUES (9,100022,'2020-05-11 09:30:00','2020-05-11 11:45:00','landed',3,2,4,2);
+INSERT INTO flight VALUES (10,100040,'2020-06-15 14:20:00','2020-06-15 16:30:00','in air',3,2,5,2);
+INSERT INTO flight VALUES (11,100025,'2020-07-15 12:30:00','2020-07-15 14:45:00','landed',4,2,1,2);
+INSERT INTO flight VALUES (12,100005,'2020-05-12 14:30:00','2020-05-12 16:45:00','landed',5,1,10,1);
+INSERT INTO flight VALUES (13,100058,'2020-05-15 09:10:00','2020-05-15 11:25:00','in air',5,1,6,1);
+INSERT INTO flight VALUES (14,100052,'2020-05-10 10:20:00','2020-05-10 11:30:00','landed',5,2,1,2);
+INSERT INTO flight VALUES (15,100029,'2020-05-11 09:30:00','2020-05-11 11:45:00','landed',6,1,5,1);
+INSERT INTO flight VALUES (16,100046,'2020-05-12 14:00:00','2020-05-12 15:30:00','in air',6,1,3,1);    -------c
+INSERT INTO flight VALUES (17,100055,'2020-06-15 10:30:00','2020-06-15 12:15:00','landed',6,2,7,2);     -------c
+INSERT INTO flight VALUES (18,100035,'2020-06-15 12:30:00','2020-06-15 14:30:00','landed',7,1,2,1);
+INSERT INTO flight VALUES (19,100049,'2021-01-05 06:45:00','2021-01-05 08:45:00','in air',7,1,1,1);
+INSERT INTO flight VALUES (20,100032,'2020-06-15 10:30:00','2020-06-15 12:45:00','landed',7,2,8,2);
+INSERT INTO flight VALUES (21, 100009, '2020-05-10 10:30:00', '2020-05-10 12:15:00', 'landed', 8, 2, 6, 2);
+INSERT INTO flight VALUES (22,100012,'2020-05-11 12:30:00','2020-05-11 13:45:00','landed',9,1,6,1);
+INSERT INTO flight VALUES (23,100053,'2020-05-12 17:45:00','2020-05-12 19:20:00','in air',9,1,1,1);     -------c
+INSERT INTO flight VALUES (24,100023,'2020-06-15 12:30:00','2020-06-15 14:45:00','landed',10,1,9,1);
+INSERT INTO flight VALUES (25,100007,'2020-08-20 16:45:00','2020-08-20 18:10:00','in air',10,1,7,1);
+
+
+Schedule:
+
+
+INSERT INTO schedule VALUES (1,1,1,'2020-05-10 09:30:00','2020-05-10 10:30:00');
+INSERT INTO schedule VALUES (1,1,2,'2020-05-11 13:20:00','2020-05-11 15:20:00');
+INSERT INTO schedule VALUES (1,1,3,'2020-05-13 06:00:00','2020-05-13 08:00:00');     -------c
+INSERT INTO schedule VALUES (1,2,4,'2021-02-15 10:30:00','2021-02-15 11:30:00');
+INSERT INTO schedule VALUES (1,2,5,'2023-11-25 13:20:00','2023-11-25 18:20:00');
+INSERT INTO schedule VALUES (2,1,6,'2020-05-12 12:00:00','2020-05-13 12:30:00');     -------c
+INSERT INTO schedule VALUES (2,2,7,'2022-08-20 05:00:00','2022-08-21 15:30:00');    --------c
+INSERT INTO schedule VALUES (3,1,8,'2020-06-01 10:30:00','2020-06-01 12:30:00');
+INSERT INTO schedule VALUES (3,2,9,'2020-05-11 19:30:00','2020-05-11 09:30:00');
+INSERT INTO schedule VALUES (3,2,10,'2020-06-15 12:24:00','2020-06-15 14:20:00');
+INSERT INTO schedule VALUES (4,2,11,'2020-07-15 01:30:00','2020-07-15 12:30:00');
+INSERT INTO schedule VALUES (5,1,12,'2020-05-12 12:30:00','2020-05-12 14:30:00');
+INSERT INTO schedule VALUES (5,1,13,'2020-05-15 06:10:00','2020-05-15 09:10:00');
+INSERT INTO schedule VALUES (5,2,14,'2020-05-10 01:20:00','2020-05-10 10:20:00');
+INSERT INTO schedule VALUES (6,1,15,'2020-05-10 19:30:00','2020-05-11 09:30:00');
+INSERT INTO schedule VALUES (6,1,16,'2020-05-12 04:00:00','2020-05-12 14:00:00');    -------c
+INSERT INTO schedule VALUES (6,2,17,'2020-06-15 06:30:00','2020-06-15 10:30:00');    -------c
+INSERT INTO schedule VALUES (7,1,18,'2020-06-15 11:30:00','2020-06-15 12:30:00');
+INSERT INTO schedule VALUES (7,1,19,'2021-01-04 16:45:00','2021-01-05 06:45:00');
+INSERT INTO schedule VALUES (7,2,20,'2020-06-15 08:30:00','2020-06-15 10:30:00');
+INSERT INTO schedule VALUES (8,2,21,'2020-05-10 07:30:00','2020-05-10 10:30:00');
+INSERT INTO schedule VALUES (9,1,22,'2020-05-11 02:30:00','2020-05-11 12:30:00');
+INSERT INTO schedule VALUES (9,1,23,'2020-05-12 07:45:00','2020-05-12 17:45:00');    -------c
+INSERT INTO schedule VALUES (10,1,24,'2020-06-15 02:30:00','2020-06-15 12:30:00');
+INSERT INTO schedule VALUES (10,1,25,'2020-08-20 13:45:00','2020-08-20 16:45:00');
+
+
+Ticket:
+
+
+INSERT INTO ticket VALUES (1,1,100001,48500,1,'Business','2020-05-10 07:30:00','2020-05-05 18:15:00');
+INSERT INTO ticket VALUES (2,1,100002,29999,2,'economy','2020-05-10 07:30:00','2020-05-04 11:20:00');
+INSERT INTO ticket VALUES (3,1,100003,17777,3,'economy','2020-05-10 07:30:00','2020-05-05 01:45:00');
+INSERT INTO ticket VALUES (4,1,100004,27600,4,'economy','2020-05-10 07:30:00','2020-05-05 04:37:00');
+INSERT INTO ticket VALUES (5,1,100005,56000,5,'Business','2020-05-10 07:30:00','2020-05-05 14:26:00');
+INSERT INTO ticket VALUES (6,1,100006,11444,6,'economy','2020-05-10 07:30:00','2020-05-03 20:10:00');
+INSERT INTO ticket VALUES (7,1,100007,46300,7,'Business','2020-05-10 07:30:00','2020-05-05 06:42:00');
+INSERT INTO ticket VALUES (8,1,100008,32222,8,'economy','2020-05-10 07:30:00','2020-05-04 13:55:00');
+INSERT INTO ticket VALUES (9,1,100009,55555,9,'Business','2020-05-10 07:30:00','2020-05-04 16:37:00');
+INSERT INTO ticket VALUES (10,1,100010,48800,10,'Business','2020-05-10 07:30:00','2020-05-04 03:12:00');
+INSERT INTO ticket VALUES (11,1,100011,15111,11,'economy','2020-05-10 07:30:00','2020-05-05 01:22:00');
+INSERT INTO ticket VALUES (12,1,100012,13333,12,'economy','2020-05-10 07:30:00','2020-05-05 00:33:00');
+INSERT INTO ticket VALUES (14,1,100014,31200,14,'economy','2020-05-10 07:30:00','2020-05-05 11:59:00');
+INSERT INTO ticket VALUES (15,1,100015,14666,15,'economy','2020-05-10 07:30:00','2020-05-04 02:23:00');
+INSERT INTO ticket VALUES (16,1,100016,48800,16,'Business','2020-05-10 07:30:00','2020-05-05 13:37:00');
+
+
+INSERT INTO ticket VALUES (17,2,100001,36708,1,'Business','2020-05-11 12:30:00','2020-05-07 13:45:00');
+INSERT INTO ticket VALUES (18,2,100002,31229,2,'economy','2020-05-11 12:30:00','2020-05-06 19:22:00');
+INSERT INTO ticket VALUES (19,2,100003,13132,3,'economy','2020-05-11 12:30:00','2020-05-05 15:18:00');
+INSERT INTO ticket VALUES (20,2,100004,15223,4,'economy','2020-05-11 12:30:00','2020-05-04 18:51:00');
+INSERT INTO ticket VALUES (21,2,100005,59409,5,'Business','2020-05-11 12:30:00','2020-05-03 22:12:00');
+INSERT INTO ticket VALUES (22,2,100006,50691,6,'Business','2020-05-11 12:30:00','2020-05-02 20:09:00');
+INSERT INTO ticket VALUES (24,2,100008,16780,8,'economy','2020-05-11 12:30:00','2020-05-05 04:18:00');
+INSERT INTO ticket VALUES (25,2,100009,13283,9,'economy','2020-05-11 12:30:00','2020-05-06 12:47:00');
+INSERT INTO ticket VALUES (26,2,100010,15983,10,'economy','2020-05-11 12:30:00','2020-05-07 03:56:00');
+INSERT INTO ticket VALUES (27,2,100011,14358,11,'economy','2020-05-11 12:30:00','2020-05-08 01:02:00');
+INSERT INTO ticket VALUES (28,2,100012,47620,12,'Business','2020-05-11 12:30:00','2020-05-03 11:45:00');
+INSERT INTO ticket VALUES (29,2,100013,40256,13,'economy','2020-05-11 12:30:00','2020-05-02 17:36:00');
+
+
+INSERT INTO ticket VALUES (30, 4, 100001, 28000, 1, 'economy', '2021-02-15 10:30:00', '2021-02-01 13:45:00');
+INSERT INTO ticket VALUES (31, 4, 100002, 52000, 2, 'Business', '2021-02-15 10:30:00', '2021-02-01 04:56:00');
+INSERT INTO ticket VALUES (32, 4, 100003, 26000, 3, 'economy', '2021-02-15 10:30:00', '2021-02-02 21:36:00');
+INSERT INTO ticket VALUES (33, 4, 100004, 43000, 4, 'Business', '2021-02-15 10:30:00', '2021-02-03 09:21:00');
+INSERT INTO ticket VALUES (34, 4, 100005, 15000, 5, 'economy', '2021-02-15 10:30:00', '2021-02-05 18:09:00');
+INSERT INTO ticket VALUES (35, 4, 100006, 47000, 6, 'Business', '2021-02-15 10:30:00', '2021-02-04 06:27:00');
+INSERT INTO ticket VALUES (36, 4, 100007, 28000, 7, 'economy', '2021-02-15 10:30:00', '2021-02-01 22:39:00');
+INSERT INTO ticket VALUES (38, 4, 100009, 30000, 9, 'economy', '2021-02-15 10:30:00', '2021-02-01 10:53:00');
+INSERT INTO ticket VALUES (39, 4, 100010, 44000, 10, 'Business', '2021-02-15 10:30:00', '2021-02-02 14:07:00');
+INSERT INTO ticket VALUES (40, 4, 100011, 54000, 11, 'Business', '2021-02-15 10:30:00', '2021-02-04 01:56:00');
+INSERT INTO ticket VALUES (41, 4, 100012, 23000, 12, 'economy', '2021-02-15 10:30:00', '2021-02-07 23:45:00');
+INSERT INTO ticket VALUES (42, 4, 100013, 32000, 13, 'economy', '2021-02-15 10:30:00', '2021-02-06 12:34:00');
+
+
+INSERT INTO ticket VALUES (43, 5, 100104, 15620, 1, 'economy', '2023-11-25 16:30:00', '2023-11-08 08:45:00');
+INSERT INTO ticket VALUES (44, 5, 100105, 43000, 2, 'Business', '2023-11-25 16:30:00', '2023-11-07 13:12:00');
+INSERT INTO ticket VALUES (45, 5, 100106, 23410, 3, 'economy', '2023-11-25 16:30:00', '2023-11-12 20:28:00');
+INSERT INTO ticket VALUES (46, 5, 100107, 53120, 4, 'Business', '2023-11-25 16:30:00', '2023-11-08 23:16:00');
+INSERT INTO ticket VALUES (47, 5, 100108, 35330, 5, 'economy', '2023-11-25 16:30:00', '2023-11-06 18:09:00');
+INSERT INTO ticket VALUES (48, 5, 100109, 24120, 6, 'economy', '2023-11-25 16:30:00', '2023-11-14 01:34:00');
+INSERT INTO ticket VALUES (49, 5, 100110, 15340, 7, 'economy', '2023-11-25 16:30:00', '2023-11-10 11:56:00');
+INSERT INTO ticket VALUES (50, 5, 100111, 45600, 8, 'Business', '2023-11-25 16:30:00', '2023-11-10 00:22:00');
+INSERT INTO ticket VALUES (51, 5, 100112, 23670, 9, 'economy', '2023-11-25 16:30:00', '2023-11-12 02:46:00');
+INSERT INTO ticket VALUES (52, 5, 100113, 54200, 10, 'Business', '2023-11-25 16:30:00', '2023-11-13 15:39:00');
+INSERT INTO ticket VALUES (54, 5, 100115, 24860, 12, 'economy', '2023-11-25 16:30:00', '2023-11-12 10:17:00');
+
+
+INSERT INTO ticket VALUES (55,8,100057,39523,13,'Business','2020-06-01 11:00:00','2020-05-23 08:45:00');
+INSERT INTO ticket VALUES (56,8,100061,28902,14,'economy','2020-06-01 11:00:00','2020-05-19 14:20:00');
+INSERT INTO ticket VALUES (57,8,100067,52577,15,'Business','2020-06-01 11:00:00','2020-05-21 11:05:00');
+INSERT INTO ticket VALUES (58,8,100069,35986,16,'economy','2020-06-01 11:00:00','2020-05-25 05:10:00');
+INSERT INTO ticket VALUES (60,8,100081,41420,18,'Business','2020-06-01 11:00:00','2020-05-16 20:30:00');
+INSERT INTO ticket VALUES (61,8,100091,20536,19,'economy','2020-06-01 11:00:00','2020-05-12 16:50:00');
+INSERT INTO ticket VALUES (62,8,100109,22480,20,'economy','2020-06-01 11:00:00','2020-05-26 03:10:00');
+INSERT INTO ticket VALUES (63,8,100129,58716,21,'Business','2020-06-01 11:00:00','2020-05-17 18:40:00');
+INSERT INTO ticket VALUES (64,8,100133,48454,22,'Business','2020-06-01 11:00:00','2020-05-20 22:00:00');
+INSERT INTO ticket VALUES (65,8,100141,21604,23,'economy','2020-06-01 11:00:00','2020-05-15 09:25:00');
+INSERT INTO ticket VALUES (66,8,100145,57030,24,'Business','2020-06-01 11:00:00','2020-05-22 06:45:00');
+
+
+
+
+INSERT INTO ticket VALUES (67, 9, 100051, 37923, 1, 'Business', '2020-05-11 08:00:00', '2020-05-07 13:45:00');
+INSERT INTO ticket VALUES (68, 9, 100053, 15681, 2, 'economy', '2020-05-11 08:00:00', '2020-05-08 20:10:00');
+INSERT INTO ticket VALUES (69, 9, 100055, 23985, 3, 'economy', '2020-05-11 08:00:00', '2020-05-05 11:20:00');
+INSERT INTO ticket VALUES (71, 9, 100059, 30592, 5, 'economy', '2020-05-11 08:00:00', '2020-05-08 01:25:00');
+INSERT INTO ticket VALUES (72, 9, 100061, 25199, 6, 'economy', '2020-05-11 08:00:00', '2020-05-07 05:40:00');
+INSERT INTO ticket VALUES (73, 9, 100063, 31567, 7, 'economy', '2020-05-11 08:00:00', '2020-05-06 21:15:00');
+INSERT INTO ticket VALUES (74, 9, 100065, 24556, 8, 'economy', '2020-05-11 08:00:00', '2020-05-07 23:50:00');
+INSERT INTO ticket VALUES (75, 9, 100067, 13496, 9, 'economy', '2020-05-11 08:00:00', '2020-05-08 12:00:00');
+INSERT INTO ticket VALUES (76, 9, 100069, 31571, 10, 'economy', '2020-05-11 08:00:00', '2020-05-06 01:55:00');
+INSERT INTO ticket VALUES (77, 9, 100071, 12237, 11, 'economy', '2020-05-11 08:00:00', '2020-05-05 21:45:00');
+INSERT INTO ticket VALUES (78, 9, 100073, 42460, 12, 'Business', '2020-05-11 08:00:00', '2020-05-07 02:30:00');
+
+
+INSERT INTO ticket VALUES (79, 10, 100050, 57269, 1, 'Business', '2020-06-15 12:00:00', '2020-06-05 03:45:00');
+INSERT INTO ticket VALUES (80, 10, 100052, 30742, 2, 'economy', '2020-06-15 12:00:00', '2020-06-06 19:22:00');
+INSERT INTO ticket VALUES (82, 10, 100056, 14023, 4, 'economy', '2020-06-15 12:00:00', '2020-06-05 03:22:00');
+INSERT INTO ticket VALUES (83, 10, 100058, 45321, 5, 'Business', '2020-06-15 12:00:00', '2020-06-04 11:41:00');
+INSERT INTO ticket VALUES (84, 10, 100060, 22678, 6, 'economy', '2020-06-15 12:00:00', '2020-06-05 03:15:00');
+INSERT INTO ticket VALUES (85, 10, 100062, 16243, 7, 'economy', '2020-06-15 12:00:00', '2020-06-07 02:05:00');
+INSERT INTO ticket VALUES (86, 10, 100064, 13408, 8, 'economy', '2020-06-15 12:00:00', '2020-06-04 12:15:00');
+INSERT INTO ticket VALUES (87, 10, 100066, 29502, 9, 'economy', '2020-06-15 12:00:00', '2020-06-07 06:56:00');
+INSERT INTO ticket VALUES (88, 10, 100068, 38306, 10, 'Business', '2020-06-15 12:00:00', '2020-06-08 01:23:00');
+INSERT INTO ticket VALUES (89, 10, 100070, 26001, 11, 'economy', '2020-06-15 12:00:00', '2020-06-06 04:17:00');
+INSERT INTO ticket VALUES (90, 10, 100072, 43234, 12, 'Business', '2020-06-15 12:00:00', '2020-06-05 02:03:00');
+
+
+INSERT INTO ticket VALUES (91, 11, 100100, 19452, 1, 'economy', '2020-07-15 10:00:00', '2020-06-20 16:45:00');
+INSERT INTO ticket VALUES (93, 11, 100104, 40868, 3, 'Business', '2020-07-15 10:00:00', '2020-06-24 08:15:00');
+INSERT INTO ticket VALUES (94, 11, 100106, 14962, 4, 'economy', '2020-07-15 10:00:00', '2020-07-06 05:20:00');
+INSERT INTO ticket VALUES (95, 11, 100108, 27805, 5, 'economy', '2020-07-15 10:00:00', '2020-07-08 21:10:00');
+INSERT INTO ticket VALUES (96, 11, 100110, 29224, 6, 'economy', '2020-07-15 10:00:00', '2020-07-02 09:05:00');
+INSERT INTO ticket VALUES (97, 11, 100112, 37108, 7, 'Business', '2020-07-15 10:00:00', '2020-06-28 18:55:00');
+INSERT INTO ticket VALUES (98, 11, 100114, 10748, 8, 'economy', '2020-07-15 10:00:00', '2020-07-01 13:40:00');
+INSERT INTO ticket VALUES (99, 11, 100116, 50854, 9, 'Business', '2020-07-15 10:00:00', '2020-07-04 22:35:00');
+INSERT INTO ticket VALUES (100, 11, 100118, 30353, 10, 'economy', '2020-07-15 10:00:00', '2020-06-25 06:30:00');
+INSERT INTO ticket VALUES (101, 11, 100120, 43607, 11, 'Business', '2020-07-15 10:00:00', '2020-06-29 14:25:00');
+
+
+INSERT INTO ticket VALUES (103, 12, 100103, 25062, 2, 'economy', '2020-05-12 12:00:00', '2020-05-09 03:14:00');
+INSERT INTO ticket VALUES (104, 12, 100105, 14233, 3, 'economy', '2020-05-12 12:00:00', '2020-05-09 02:37:00');
+INSERT INTO ticket VALUES (105, 12, 100107, 51868, 4, 'Business', '2020-05-12 12:00:00', '2020-05-09 05:45:00');
+INSERT INTO ticket VALUES (106, 12, 100109, 35013, 5, 'economy', '2020-05-12 12:00:00', '2020-05-09 05:39:00');
+INSERT INTO ticket VALUES (107, 12, 100111, 11184, 6, 'economy', '2020-05-12 12:00:00', '2020-05-08 16:56:00');
+INSERT INTO ticket VALUES (108, 12, 100113, 53150, 7, 'Business', '2020-05-12 12:00:00', '2020-05-09 06:09:00');
+INSERT INTO ticket VALUES (109, 12, 100115, 18677, 8, 'economy', '2020-05-12 12:00:00', '2020-05-08 17:56:00');
+INSERT INTO ticket VALUES (110, 12, 100117, 34808, 9, 'economy', '2020-05-12 12:00:00', '2020-05-09 06:01:00');
+INSERT INTO ticket VALUES (111, 12, 100119, 58485, 10, 'Business', '2020-05-12 12:00:00', '2020-05-09 03:42:00');
+INSERT INTO ticket VALUES (112, 12, 100121, 20635, 11, 'economy', '2020-05-12 12:00:00', '2020-05-08 14:12:00');
+INSERT INTO ticket VALUES (113, 12, 100123, 34659, 12, 'economy', '2020-05-12 12:00:00', '2020-05-09 01:59:00');
+
+
+INSERT INTO ticket VALUES (114, 13, 100101, 34702, 1, 'Business', '2020-05-15 07:00:00', '2020-05-02 04:52:10');
+INSERT INTO ticket VALUES (115, 13, 100103, 53264, 2, 'Business', '2020-05-15 07:00:00', '2020-05-02 03:37:51');
+INSERT INTO ticket VALUES (116, 13, 100105, 30725, 3, 'economy', '2020-05-15 07:00:00', '2020-05-03 22:15:59');
+INSERT INTO ticket VALUES (117, 13, 100107, 18029, 4, 'economy', '2020-05-15 07:00:00', '2020-05-03 19:08:23');
+INSERT INTO ticket VALUES (118, 13, 100109, 15384, 5, 'economy', '2020-05-15 07:00:00', '2020-05-03 09:46:32');
+INSERT INTO ticket VALUES (119, 13, 100111, 19954, 6, 'economy', '2020-05-15 07:00:00', '2020-05-02 11:31:22');
+INSERT INTO ticket VALUES (121, 13, 100115, 12063, 8, 'economy', '2020-05-15 07:00:00', '2020-05-02 01:09:56');
+INSERT INTO ticket VALUES (122, 13, 100117, 41353, 9, 'Business', '2020-05-15 07:00:00', '2020-05-02 13:44:32');
+INSERT INTO ticket VALUES (123, 13, 100119, 23270, 10, 'economy', '2020-05-15 07:00:00', '2020-05-03 05:15:02');
+INSERT INTO ticket VALUES (124, 13, 100121, 46423, 11, 'Business', '2020-05-15 07:00:00', '2020-05-03 06:29:54');
+INSERT INTO ticket VALUES (125, 13, 100123, 14569, 12, 'economy', '2020-05-15 07:00:00', '2020-05-01 23:17:23');
+INSERT INTO ticket VALUES (126, 13, 100125, 47724, 13, 'Business', '2020-05-15 07:00:00', '2020-05-03 13:33:06');
+INSERT INTO ticket VALUES (127, 13, 100127, 52531, 14, 'Business', '2020-05-15 07:00:00', '2020-05-02 21:45:38');
+
+
+INSERT INTO ticket VALUES (128,14,100109,17663,1,'economy','2020-05-10 07:00:00','2020-05-05 15:45:12');
+INSERT INTO ticket VALUES (129,14,100111,34432,2,'economy','2020-05-10 07:00:00','2020-05-04 23:11:23');
+INSERT INTO ticket VALUES (130,14,100113,52405,3,'Business','2020-05-10 07:00:00','2020-05-03 10:30:56');
+INSERT INTO ticket VALUES (131,14,100127,46768,4,'Business','2020-05-10 07:00:00','2020-05-02 14:12:41');
+INSERT INTO ticket VALUES (132,14,100129,51849,5,'Business','2020-05-10 07:00:00','2020-05-05 06:45:32');
+INSERT INTO ticket VALUES (134,14,100139,14887,7,'economy','2020-05-10 07:00:00','2020-05-05 02:30:49');
+INSERT INTO ticket VALUES (135,14,100041,34153,8,'economy','2020-05-10 07:00:00','2020-05-05 01:02:11');
+INSERT INTO ticket VALUES (136,14,100043,45971,9,'Business','2020-05-10 07:00:00','2020-05-05 04:57:18');
+INSERT INTO ticket VALUES (137,14,100045,23494,10,'economy','2020-05-10 07:00:00','2020-05-03 06:59:35');
+INSERT INTO ticket VALUES (138,14,100047,18814,11,'economy','2020-05-10 07:00:00','2020-05-05 00:18:19');
+INSERT INTO ticket VALUES (139,14,100051,31570,12,'economy','2020-05-10 07:00:00','2020-05-05 02:41:56');
+INSERT INTO ticket VALUES (140,14,100053,53227,13,'Business','2020-05-10 07:00:00','2020-05-03 03:14:29');
+INSERT INTO ticket VALUES (141,14,100059,30000,14,'economy','2020-05-10 07:00:00','2020-05-03 12:54:17');
+INSERT INTO ticket VALUES (142,14,100063,51339,15,'Business','2020-05-10 07:00:00','2020-05-04 07:08:53');
+INSERT INTO ticket VALUES (143,14,100069,47633,16,'Business','2020-05-10 07:00:00','2020-05-03 08:49:37');
+
+
+INSERT INTO ticket VALUES (144,15,100100,48327,1,'Business','2020-05-11 07:00:00','2020-05-04 03:21:17');
+INSERT INTO ticket VALUES (145,15,100101,19814,2,'economy','2020-05-11 07:00:00','2020-05-02 23:51:01');
+INSERT INTO ticket VALUES (146,15,100102,31649,3,'economy','2020-05-11 07:00:00','2020-05-02 12:32:50');
+INSERT INTO ticket VALUES (147,15,100103,18110,4,'economy','2020-05-11 07:00:00','2020-05-04 00:09:14');
+INSERT INTO ticket VALUES (148,15,100104,15188,5,'economy','2020-05-11 07:00:00','2020-05-01 14:15:48');
+INSERT INTO ticket VALUES (150,15,100106,35444,7,'economy','2020-05-11 07:00:00','2020-05-04 03:15:27');
+INSERT INTO ticket VALUES (151,15,100107,24262,8,'economy','2020-05-11 07:00:00','2020-05-05 04:25:45');
+INSERT INTO ticket VALUES (152,15,100108,54061,9,'Business','2020-05-11 07:00:00','2020-05-04 01:50:07');
+INSERT INTO ticket VALUES (153,15,100109,10311,10,'economy','2020-05-11 07:00:00','2020-05-03 08:26:42');
+INSERT INTO ticket VALUES (154,15,100110,21833,11,'economy','2020-05-11 07:00:00','2020-05-05 01:47:10');
+INSERT INTO ticket VALUES (155,15,100111,49809,12,'Business','2020-05-11 07:00:00','2020-05-04 06:45:57');
+INSERT INTO ticket VALUES (156,15,100112,37368,13,'economy','2020-05-11 07:00:00','2020-05-05 01:45:49');
+INSERT INTO ticket VALUES (157,15,100113,12134,14,'economy','2020-05-11 07:00:00','2020-05-03 03:55:22');
+INSERT INTO ticket VALUES (158,15,100114,14738,15,'economy','2020-05-11 07:00:00','2020-05-02 07:35:56');
+INSERT INTO ticket VALUES (159,15,100115,50180,16,'Business','2020-05-11 07:00:00','2020-05-03 04:10:31');
+
+
+INSERT INTO ticket VALUES (160, 18, 100096, 17246, 1, 'economy', '2020-06-15 10:30:00', '2020-06-05 16:44:00');
+INSERT INTO ticket VALUES (162, 18, 100098, 23541, 3, 'economy', '2020-06-15 10:30:00', '2020-06-06 02:13:00');
+INSERT INTO ticket VALUES (163, 18, 100099, 22591, 4, 'economy', '2020-06-15 10:30:00', '2020-06-05 13:56:00');
+INSERT INTO ticket VALUES (164, 18, 100100, 50615, 5, 'Business', '2020-06-15 10:30:00', '2020-06-08 03:01:00');
+INSERT INTO ticket VALUES (165, 18, 100101, 41520, 6, 'Business', '2020-06-15 10:30:00', '2020-06-06 06:18:00');
+INSERT INTO ticket VALUES (166, 18, 100102, 42587, 7, 'Business', '2020-06-15 10:30:00', '2020-06-06 16:55:00');
+INSERT INTO ticket VALUES (167, 18, 100103, 26033, 8, 'economy', '2020-06-15 10:30:00', '2020-06-08 02:19:00');
+INSERT INTO ticket VALUES (168, 18, 100104, 18928, 9, 'economy', '2020-06-15 10:30:00', '2020-06-05 15:29:00');
+INSERT INTO ticket VALUES (169, 18, 100105, 48288, 10, 'Business', '2020-06-15 10:30:00', '2020-06-06 06:30:00');
+INSERT INTO ticket VALUES (170, 18, 100106, 42394, 11, 'Business', '2020-06-15 10:30:00', '2020-06-06 00:54:00');
+INSERT INTO ticket VALUES (171, 18, 100107, 46858, 12, 'Business', '2020-06-15 10:30:00', '2020-06-06 17:14:00');
+INSERT INTO ticket VALUES (172, 18, 100108, 57098, 13, 'Business', '2020-06-15 10:30:00', '2020-06-02 11:45:00');
+
+
+INSERT INTO ticket VALUES (173, 19, 100001, 15648, 1, 'economy', '2021-01-05 04:30:00', '2021-01-02 15:20:00');
+INSERT INTO ticket VALUES (174, 19, 100002, 12398, 2, 'economy', '2021-01-05 04:30:00', '2021-01-01 09:15:00');
+INSERT INTO ticket VALUES (175, 19, 100003, 22217, 3, 'Business', '2021-01-05 04:30:00', '2021-01-02 03:47:00');
+INSERT INTO ticket VALUES (176, 19, 100004, 13349, 4, 'economy', '2021-01-05 04:30:00', '2021-01-01 22:34:00');
+INSERT INTO ticket VALUES (177, 19, 100005, 34651, 5, 'Business', '2021-01-05 04:30:00', '2021-01-02 11:52:00');
+INSERT INTO ticket VALUES (178, 19, 100006, 24695, 6, 'Business', '2021-01-05 04:30:00', '2021-01-02 00:27:00');
+INSERT INTO ticket VALUES (179, 19, 100007, 15767, 7, 'economy', '2021-01-05 04:30:00', '2021-01-02 08:45:00');
+INSERT INTO ticket VALUES (180, 19, 100008, 57802, 8, 'Business', '2021-01-05 04:30:00', '2021-01-02 17:39:00');
+INSERT INTO ticket VALUES (181, 19, 100009, 41298, 9, 'Business', '2021-01-05 04:30:00', '2021-01-02 10:02:00');
+INSERT INTO ticket VALUES (182, 19, 100010, 25979, 10, 'Business', '2021-01-05 04:30:00', '2021-01-02 05:12:00');
+INSERT INTO ticket VALUES (183, 19, 100011, 53187, 11, 'Business', '2021-01-05 04:30:00', '2021-01-02 13:05:00');
+INSERT INTO ticket VALUES (184, 19, 100012, 42336, 12, 'Business', '2021-01-05 04:30:00', '2021-01-02 12:24:00');
+INSERT INTO ticket VALUES (185, 19, 100013, 37706, 13, 'Business', '2021-01-05 04:30:00', '2021-01-02 06:59:00');
+INSERT INTO ticket VALUES (186, 19, 100014, 55435, 14, 'Business', '2021-01-05 04:30:00', '2021-01-02 04:03:00');
+
+
+
+
+INSERT INTO ticket VALUES (188,20,100002,20546,2,'economy','2020-06-15 8:30:00','2020-06-06 02:05:00');
+INSERT INTO ticket VALUES (189,20,100003,52415,3,'Business','2020-06-15 8:30:00','2020-06-08 20:43:00');
+INSERT INTO ticket VALUES (190,20,100004,43213,4,'economy','2020-06-15 8:30:00','2020-06-07 19:52:00');
+INSERT INTO ticket VALUES (191,20,100005,27634,5,'economy','2020-06-15 8:30:00','2020-06-08 03:38:00');
+INSERT INTO ticket VALUES (192,20,100006,25916,6,'economy','2020-06-15 8:30:00','2020-06-08 01:26:00');
+INSERT INTO ticket VALUES (193,20,100007,31070,7,'economy','2020-06-15 8:30:00','2020-06-05 15:53:00');
+INSERT INTO ticket VALUES (194,20,100008,17500,8,'economy','2020-06-15 8:30:00','2020-06-07 06:26:00');
+INSERT INTO ticket VALUES (195,20,100009,22470,9,'economy','2020-06-15 8:30:00','2020-06-09 03:43:00');
+INSERT INTO ticket VALUES (196,20,100010,47681,10,'Business','2020-06-15 8:30:00','2020-06-07 16:47:00');
+INSERT INTO ticket VALUES (197,20,100011,17323,11,'economy','2020-06-15 8:30:00','2020-06-07 11:10:00');
+INSERT INTO ticket VALUES (198,20,100012,57860,12,'Business','2020-06-15 8:30:00','2020-06-05 06:09:00');
+INSERT INTO ticket VALUES (199,20,100013,39494,13,'economy','2020-06-15 8:30:00','2020-06-07 12:17:00');
+
+
+INSERT INTO ticket VALUES (201,20,100015,30580,15,'economy','2020-06-15 8:30:00','2020-06-09 02:30:00');
+INSERT INTO ticket VALUES (202,20,100016,59933,16,'Business','2020-06-15 8:30:00','2020-06-06 07:51:00');
+INSERT INTO ticket VALUES (203, 21, 100001, 47500, 1, 'Business', '2020-05-10 08:30:00', '2020-05-06 15:45:00');
+INSERT INTO ticket VALUES (204, 21, 100002, 26127, 2, 'economy', '2020-05-10 08:30:00', '2020-05-07 13:23:00');
+INSERT INTO ticket VALUES (205, 21, 100003, 20168, 3, 'economy', '2020-05-10 08:30:00', '2020-05-06 08:57:00');
+INSERT INTO ticket VALUES (206, 21, 100004, 39990, 4, 'Business', '2020-05-10 08:30:00', '2020-05-07 23:11:00');
+INSERT INTO ticket VALUES (207, 21, 100005, 27818, 5, 'economy', '2020-05-10 08:30:00', '2020-05-06 10:35:00');
+INSERT INTO ticket VALUES (208, 21, 100006, 24300, 6, 'economy', '2020-05-10 08:30:00', '2020-05-06 01:57:00');
+INSERT INTO ticket VALUES (209, 21, 100007, 23818, 7, 'economy', '2020-05-10 08:30:00', '2020-05-07 09:44:00');
+INSERT INTO ticket VALUES (210, 21, 100008, 12679, 8, 'economy', '2020-05-10 08:30:00', '2020-05-05 18:56:00');
+INSERT INTO ticket VALUES (211, 21, 100009, 57766, 9, 'Business', '2020-05-10 08:30:00', '2020-05-07 20:03:00');
+INSERT INTO ticket VALUES (212, 21, 100010, 28834, 10, 'economy', '2020-05-10 08:30:00', '2020-05-06 11:17:00');
+
+
+INSERT INTO ticket VALUES (213, 22, 100041, 18624, 1, 'economy', '2020-05-11 10:30:00', '2020-05-04 14:05:47');
+INSERT INTO ticket VALUES (214, 22, 100042, 54045, 2, 'Business', '2020-05-11 10:30:00', '2020-05-06 21:49:31');
+INSERT INTO ticket VALUES (215, 22, 100043, 43857, 3, 'economy', '2020-05-11 10:30:00', '2020-05-05 22:38:15');
+INSERT INTO ticket VALUES (216, 22, 100044, 14593, 4, 'economy', '2020-05-11 10:30:00', '2020-05-06 01:14:02');
+INSERT INTO ticket VALUES (217, 22, 100045, 31847, 5, 'economy', '2020-05-11 10:30:00', '2020-05-03 23:59:23');
+INSERT INTO ticket VALUES (218, 22, 100046, 39850, 6, 'economy', '2020-05-11 10:30:00', '2020-05-06 02:16:04');
+INSERT INTO ticket VALUES (219, 22, 100047, 24570, 7, 'economy', '2020-05-11 10:30:00', '2020-05-03 09:47:50');
+INSERT INTO ticket VALUES (220, 22, 100048, 46234, 8, 'Business', '2020-05-11 10:30:00', '2020-05-07 19:38:24');
+INSERT INTO ticket VALUES (221, 22, 100049, 56622, 9, 'Business', '2020-05-11 10:30:00', '2020-05-06 12:16:35');
+
+
+
+
+INSERT INTO ticket VALUES (223,24,100061,28500,1,'economy','2020-06-15 10:30:00','2020-06-03 12:30:00');
+INSERT INTO ticket VALUES (224,24,100062,42700,2,'Business','2020-06-15 10:30:00','2020-06-06 09:15:00');
+INSERT INTO ticket VALUES (225,24,100063,53200,3,'Business','2020-06-15 10:30:00','2020-06-01 21:45:00');
+INSERT INTO ticket VALUES (226,24,100064,23800,4,'economy','2020-06-15 10:30:00','2020-06-05 18:00:00');
+INSERT INTO ticket VALUES (227,24,100065,12800,5,'economy','2020-06-15 10:30:00','2020-06-07 08:30:00');
+INSERT INTO ticket VALUES (228,24,100066,46900,6,'Business','2020-06-15 10:30:00','2020-06-02 14:45:00');
+INSERT INTO ticket VALUES (229,24,100067,37800,7,'economy','2020-06-15 10:30:00','2020-06-05 23:15:00');
+INSERT INTO ticket VALUES (231,24,100069,54200,9,'Business','2020-06-15 10:30:00','2020-06-01 19:00:00');
+INSERT INTO ticket VALUES (232,24,100070,47800,10,'Business','2020-06-15 10:30:00','2020-06-04 11:30:00');
+
+
+INSERT INTO ticket VALUES (233, 25, 100081, 17600, 1, 'economy', '2020-08-20 14:30:00', '2020-08-16 08:00:00');
+INSERT INTO ticket VALUES (234, 25, 100082, 35700, 2, 'Business', '2020-08-20 14:30:00', '2020-08-15 19:45:00');
+INSERT INTO ticket VALUES (235, 25, 100083, 21200, 3, 'economy', '2020-08-20 14:30:00', '2020-08-12 02:15:00');
+INSERT INTO ticket VALUES (236, 25, 100084, 58900, 4, 'Business', '2020-08-20 14:30:00', '2020-08-16 21:30:00');
+INSERT INTO ticket VALUES (237, 25, 100085, 21200, 5, 'economy', '2020-08-20 14:30:00', '2020-08-13 11:00:00');
+INSERT INTO ticket VALUES (238, 25, 100086, 51400, 6, 'Business', '2020-08-20 14:30:00', '2020-08-14 07:45:00');
+INSERT INTO ticket VALUES (239, 25, 100087, 26500, 7, 'economy', '2020-08-20 14:30:00', '2020-08-16 02:30:00');
+INSERT INTO ticket VALUES (241, 25, 100089, 29500, 9, 'economy', '2020-08-20 14:30:00', '2020-08-13 06:45:00');
+INSERT INTO ticket VALUES (242, 25, 100090, 49300, 10, 'Business', '2020-08-20 14:30:00', '2020-08-15 22:30:00');
+
+
+
+
+Cancel_ticket:
+
+
+
+
+INSERT INTO cancel_ticket VALUES (13,1,100013,48333,13,'Business','2020-05-04 07:49:00','2020-05-09 17:49:00');
+INSERT INTO cancel_ticket VALUES (23,2,100007,10103,7,'economy','2020-05-07 01:27:00','2020-05-09 11:27:00');
+INSERT INTO cancel_ticket VALUES (37, 4, 100008, 51000, 8, 'Business', '2021-02-03 16:18:00', '2021-02-13 16:18:00');
+INSERT INTO cancel_ticket VALUES (53, 5, 100114, 37600, 11, 'economy',  '2023-11-05 21:58:00', '2023-11-10 01:58:00');
+INSERT INTO cancel_ticket VALUES (59,8,100073,57067,17,'Business','2020-05-27 01:15:00','2020-05-28 11:15:00');
+INSERT INTO cancel_ticket VALUES (70, 9, 100057, 19242, 4, 'economy',  '2020-05-06 17:30:00', '2020-05-06 20:30:00');
+INSERT INTO cancel_ticket VALUES (81, 10, 100054, 32859, 3, 'economy',  '2020-06-05 00:37:00', '2020-06-05 10:37:00');
+INSERT INTO cancel_ticket VALUES (92, 11, 100102, 20562, 2, 'economy',  '2020-06-28 12:30:00', '2020-06-30 02:30:00');
+INSERT INTO cancel_ticket VALUES (102, 12, 100101, 46755, 1, 'Business',  '2020-05-09 16:21:00', '2020-05-10 14:21:00');
+INSERT INTO cancel_ticket VALUES (120, 13, 100113, 17499, 7, 'economy',  '2020-05-01 18:25:44', '2020-05-02 18:25:44');
+INSERT INTO cancel_ticket VALUES (133,14,100133,34658,6,'economy','2020-05-05 01:39:27','2020-05-05 11:39:27');
+INSERT INTO cancel_ticket VALUES (149,15,100105,45994,6,'Business','2020-05-02 19:16:34','2020-05-07 09:16:00');
+INSERT INTO cancel_ticket VALUES (161, 18, 100097, 30564, 2, 'economy',  '2020-06-01 19:27:00', '2020-06-10 01:27:00');
+INSERT INTO cancel_ticket VALUES (187,20,100001,19740,1,'economy','2020-06-07 13:15:00','2020-06-10 13:05:00');
+INSERT INTO cancel_ticket VALUES (200,20,100014,16149,14,'economy','2020-06-06 14:53:00','2020-06-09 04:53:00');
+INSERT INTO cancel_ticket VALUES (222, 22, 100050, 32588, 10, 'economy',  '2020-05-06 03:21:55', '2020-05-07 13:21:55');
+INSERT INTO cancel_ticket VALUES (230,24,100068,19300,8,'economy','2020-06-03 06:30:00','2020-06-03 16:30:00');
+INSERT INTO cancel_ticket VALUES (240, 25, 100088, 47300, 8, 'Business', '2020-08-14 16:15:00', '2020-08-15 10:15:00');
+
+
+Baggage:
+
+
+INSERT INTO baggage VALUES (1, 1, 37, 'on way');
+INSERT INTO baggage VALUES (2, 2, 15, 'on board');
+INSERT INTO baggage VALUES (3, 3, 43, 'on board');
+INSERT INTO baggage VALUES (4, 4, 12, 'on way');
+INSERT INTO baggage VALUES (5, 5, 29, 'on board');
+INSERT INTO baggage VALUES (6, 6, 51, 'on way');
+INSERT INTO baggage VALUES (7, 7, 30, 'on board');
+INSERT INTO baggage VALUES (8, 8, 19, 'on way');
+INSERT INTO baggage VALUES (9, 9, 45, 'on board');
+INSERT INTO baggage VALUES (10, 10, 18, 'on way');
+INSERT INTO baggage VALUES (11, 11, 22, 'on way');
+INSERT INTO baggage VALUES (12, 12, 48, 'on board');
+--INSERT INTO baggage VALUES (13, 13, 24, 'on way');
+INSERT INTO baggage VALUES (14, 14, 27, 'on way');
+INSERT INTO baggage VALUES (15, 15, 25, 'on way');
+INSERT INTO baggage VALUES (16, 16, 41, 'on way');
+INSERT INTO baggage VALUES (17, 17, 60, 'on board');
+INSERT INTO baggage VALUES (18, 18, 46, 'on way');
+INSERT INTO baggage VALUES (19, 19, 39, 'on board');
+INSERT INTO baggage VALUES (20, 20, 54, 'on way');
+INSERT INTO baggage VALUES (21, 21, 10, 'on board');
+INSERT INTO baggage VALUES (22, 22, 33, 'on way');
+--INSERT INTO baggage VALUES (23, 23, 38, 'on way');
+INSERT INTO baggage VALUES (24, 24, 31, 'on board');
+INSERT INTO baggage VALUES (25, 25, 20, 'on way');
+INSERT INTO baggage VALUES (26, 26, 55, 'on board');
+INSERT INTO baggage VALUES (27, 27, 35, 'on way');
+INSERT INTO baggage VALUES (28, 28, 52, 'on way');
+INSERT INTO baggage VALUES (29, 29, 16, 'on board');
+INSERT INTO baggage VALUES (30, 30, 28, 'on way');
+INSERT INTO baggage VALUES (31, 31, 20, 'on way');
+INSERT INTO baggage VALUES (32, 32, 23, 'on board');
+INSERT INTO baggage VALUES (33, 33, 30, 'on board');
+INSERT INTO baggage VALUES (34, 34, 48, 'on way');
+INSERT INTO baggage VALUES (35, 35, 33, 'on board');
+INSERT INTO baggage VALUES (36, 36, 26, 'on way');
+--INSERT INTO baggage VALUES (37, 37, 43, 'on board');
+INSERT INTO baggage VALUES (38, 38, 14, 'on way');
+INSERT INTO baggage VALUES (39, 39, 36, 'on way');
+INSERT INTO baggage VALUES (40, 40, 54, 'on board');
+INSERT INTO baggage VALUES (41, 41, 40, 'on way');
+INSERT INTO baggage VALUES (42, 42, 19, 'on board');
+INSERT INTO baggage VALUES (43, 43, 42, 'on way');
+INSERT INTO baggage VALUES (44, 44, 26, 'on board');
+INSERT INTO baggage VALUES (45, 45, 57, 'on way');
+INSERT INTO baggage VALUES (46, 46, 25, 'on board');
+INSERT INTO baggage VALUES (47, 47, 11, 'on way');
+INSERT INTO baggage VALUES (48, 48, 31, 'on way');
+INSERT INTO baggage VALUES (49, 49, 44, 'on board');
+INSERT INTO baggage VALUES (50, 50, 21, 'on board');
+INSERT INTO baggage VALUES (51, 51, 38, 'on board');
+INSERT INTO baggage VALUES (52, 52, 17, 'on way');
+--INSERT INTO baggage VALUES (53, 53, 59, 'on board');
+INSERT INTO baggage VALUES (54, 54, 28, 'on way');
+INSERT INTO baggage VALUES (55, 55, 13, 'on way');
+INSERT INTO baggage VALUES (56, 56, 55, 'on way');
+INSERT INTO baggage VALUES (57, 57, 27, 'on way');
+INSERT INTO baggage VALUES (58, 58, 52, 'on board');
+--INSERT INTO baggage VALUES (59, 59, 45, 'on board');
+INSERT INTO baggage VALUES (60, 60, 35, 'on way');
+INSERT INTO baggage VALUES (61, 61, 56, 'on board');
+INSERT INTO baggage VALUES (62, 62, 12, 'on way');
+INSERT INTO baggage VALUES (63, 63, 32, 'on way');
+INSERT INTO baggage VALUES (64, 64, 24, 'on board');
+INSERT INTO baggage VALUES (65, 65, 58, 'on way');
+INSERT INTO baggage VALUES (66, 66, 34, 'on way');
+INSERT INTO baggage VALUES (67, 67, 47, 'on board');
+INSERT INTO baggage VALUES (68, 68, 10, 'on way');
+INSERT INTO baggage VALUES (69, 69, 29, 'on way');
+--INSERT INTO baggage VALUES (70, 70, 49, 'on board');
+INSERT INTO baggage VALUES (71, 71, 18, 'on board');
+INSERT INTO baggage VALUES (72, 72, 46, 'on way');
+INSERT INTO baggage VALUES (73, 73, 51, 'on way');
+INSERT INTO baggage VALUES (74, 74, 41, 'on way');
+INSERT INTO baggage VALUES (75, 75, 15, 'on way');
+INSERT INTO baggage VALUES (76, 76, 39, 'on board');
+INSERT INTO baggage VALUES (77, 77, 22, 'on board');
+INSERT INTO baggage VALUES (78, 78, 50, 'on way');
+INSERT INTO baggage VALUES (79, 79, 16, 'on board');
+INSERT INTO baggage VALUES (80, 80, 53, 'on way');
+--INSERT INTO baggage VALUES (81, 81, 37, 'on way');
+INSERT INTO baggage VALUES (82, 82, 27, 'on way');
+INSERT INTO baggage VALUES (83, 83, 48, 'on board');
+INSERT INTO baggage VALUES (84, 84, 12, 'on board');
+INSERT INTO baggage VALUES (85, 85, 31, 'on board');
+INSERT INTO baggage VALUES (86, 86, 59, 'on board');
+INSERT INTO baggage VALUES (87, 87, 41, 'on board');
+INSERT INTO baggage VALUES (88, 88, 26, 'on board');
+INSERT INTO baggage VALUES (89, 89, 45, 'on way');
+INSERT INTO baggage VALUES (90, 90, 10, 'on board');
+INSERT INTO baggage VALUES (91, 91, 36, 'on board');
+--INSERT INTO baggage VALUES (92, 92, 51, 'on board');
+INSERT INTO baggage VALUES (93, 93, 13, 'on board');
+INSERT INTO baggage VALUES (94, 94, 28, 'on board');
+INSERT INTO baggage VALUES (95, 95, 42, 'on way');
+INSERT INTO baggage VALUES (96, 96, 20, 'on board');
+INSERT INTO baggage VALUES (97, 97, 56, 'on way');
+INSERT INTO baggage VALUES (98, 98, 21, 'on way');
+INSERT INTO baggage VALUES (99, 99, 43, 'on way');
+INSERT INTO baggage VALUES (100, 100, 55, 'on way');
+INSERT INTO baggage VALUES (101, 101, 45, 'on way');
+--INSERT INTO baggage VALUES (102, 102, 17, 'on way');
+INSERT INTO baggage VALUES (103, 103, 59, 'on way');
+INSERT INTO baggage VALUES (104, 104, 28, 'on board');
+INSERT INTO baggage VALUES (105, 105, 52, 'on way');
+INSERT INTO baggage VALUES (106, 106, 22, 'on board');
+INSERT INTO baggage VALUES (107, 107, 33, 'on way');
+INSERT INTO baggage VALUES (108, 108, 47, 'on way');
+INSERT INTO baggage VALUES (109, 109, 10, 'on way');
+INSERT INTO baggage VALUES (110, 110, 54, 'on board');
+INSERT INTO baggage VALUES (111, 111, 37, 'on way');
+INSERT INTO baggage VALUES (112, 112, 15, 'on way');
+INSERT INTO baggage VALUES (113, 113, 56, 'on board');
+INSERT INTO baggage VALUES (114, 114, 20, 'on board');
+INSERT INTO baggage VALUES (115, 115, 48, 'on way');
+INSERT INTO baggage VALUES (116, 116, 42, 'on board');
+INSERT INTO baggage VALUES (117, 117, 16, 'on way');
+INSERT INTO baggage VALUES (118, 118, 30, 'on board');
+INSERT INTO baggage VALUES (119, 119, 51, 'on way');
+--INSERT INTO baggage VALUES (120, 120, 25, 'on way');
+INSERT INTO baggage VALUES (121, 121, 53, 'on way');
+INSERT INTO baggage VALUES (122, 122, 18, 'on way');
+INSERT INTO baggage VALUES (123, 123, 44, 'on way');
+INSERT INTO baggage VALUES (124, 124, 21, 'on board');
+INSERT INTO baggage VALUES (125, 125, 57, 'on board');
+INSERT INTO baggage VALUES (126, 126, 32, 'on way');
+INSERT INTO baggage VALUES (127, 127, 38, 'on way');
+INSERT INTO baggage VALUES (128, 128, 11, 'on board');
+INSERT INTO baggage VALUES (129, 129, 50, 'on way');
+INSERT INTO baggage VALUES (130, 130, 27, 'on board');
+INSERT INTO baggage VALUES (131, 131, 49, 'on board');
+INSERT INTO baggage VALUES (132, 132, 24, 'on way');
+--INSERT INTO baggage VALUES (133, 133, 55, 'on board');
+INSERT INTO baggage VALUES (134, 134, 14, 'on way');
+INSERT INTO baggage VALUES (135, 135, 40, 'on way');
+INSERT INTO baggage VALUES (136, 136, 58, 'on board');
+INSERT INTO baggage VALUES (137, 137, 34, 'on way');
+INSERT INTO baggage VALUES (138, 138, 12, 'on board');
+INSERT INTO baggage VALUES (139, 139, 46, 'on board');
+INSERT INTO baggage VALUES (140, 140, 23, 'on way');
+INSERT INTO baggage VALUES (141, 141, 41, 'on board');
+INSERT INTO baggage VALUES (142, 142, 19, 'on board');
+INSERT INTO baggage VALUES (143, 143, 31, 'on board');
+INSERT INTO baggage VALUES (144, 144, 54, 'on way');
+INSERT INTO baggage VALUES (145, 145, 35, 'on board');
+INSERT INTO baggage VALUES (146, 146, 13, 'on way');
+INSERT INTO baggage VALUES (147, 147, 47, 'on board');
+INSERT INTO baggage VALUES (148, 148, 21, 'on way');
+--INSERT INTO baggage VALUES (149, 149, 53, 'on way');
+INSERT INTO baggage VALUES (150, 150, 29, 'on board');
+INSERT INTO baggage VALUES (151, 151, 56, 'on way');
+INSERT INTO baggage VALUES (152, 152, 16, 'on way');
+INSERT INTO baggage VALUES (153, 153, 42, 'on way');
+INSERT INTO baggage VALUES (154, 154, 50, 'on board');
+INSERT INTO baggage VALUES (155, 155, 27, 'on way');
+INSERT INTO baggage VALUES (156, 156, 58, 'on way');
+INSERT INTO baggage VALUES (157, 157, 12, 'on way');
+INSERT INTO baggage VALUES (158, 158, 33, 'on board');
+INSERT INTO baggage VALUES (159, 159, 51, 'on board');
+INSERT INTO baggage VALUES (160, 160, 25, 'on way');
+--INSERT INTO baggage VALUES (161, 161, 43, 'on board');
+INSERT INTO baggage VALUES (162, 162, 15, 'on board');
+INSERT INTO baggage VALUES (163, 163, 30, 'on way');
+INSERT INTO baggage VALUES (164, 164, 46, 'on way');
+INSERT INTO baggage VALUES (165, 165, 22, 'on way');
+INSERT INTO baggage VALUES (166, 166, 55, 'on way');
+INSERT INTO baggage VALUES (167, 167, 14, 'on board');
+INSERT INTO baggage VALUES (168, 168, 39, 'on way');
+INSERT INTO baggage VALUES (169, 169, 59, 'on board');
+INSERT INTO baggage VALUES (170, 170, 28, 'on board');
+INSERT INTO baggage VALUES (171, 171, 57, 'on board');
+INSERT INTO baggage VALUES (172, 172, 11, 'on way');
+INSERT INTO baggage VALUES (173, 173, 40, 'on way');
+INSERT INTO baggage VALUES (174, 174, 54, 'on board');
+INSERT INTO baggage VALUES (175, 175, 18, 'on way');
+INSERT INTO baggage VALUES (176, 176, 34, 'on way');
+INSERT INTO baggage VALUES (177, 177, 48, 'on board');
+INSERT INTO baggage VALUES (178, 178, 24, 'on board');
+INSERT INTO baggage VALUES (179, 179, 38, 'on way');
+INSERT INTO baggage VALUES (180, 180, 49, 'on board');
+INSERT INTO baggage VALUES (181, 181, 20, 'on way');
+INSERT INTO baggage VALUES (182, 182, 44, 'on board');
+INSERT INTO baggage VALUES (183, 183, 19, 'on way');
+INSERT INTO baggage VALUES (184, 184, 36, 'on way');
+INSERT INTO baggage VALUES (185, 185, 52, 'on way');
+INSERT INTO baggage VALUES (186, 186, 17, 'on board');
+--INSERT INTO baggage VALUES (187, 187, 31, 'on way');
+INSERT INTO baggage VALUES (188, 188, 45, 'on board');
+INSERT INTO baggage VALUES (189, 189, 26, 'on way');
+INSERT INTO baggage VALUES (190, 190, 41, 'on board');
+INSERT INTO baggage VALUES (191, 191, 60, 'on way');
+INSERT INTO baggage VALUES (192, 192, 23, 'on board');
+INSERT INTO baggage VALUES (193, 193, 37, 'on board');
+INSERT INTO baggage VALUES (194, 194, 32, 'on way');
+INSERT INTO baggage VALUES (195, 195, 55, 'on board');
+INSERT INTO baggage VALUES (196, 196, 24, 'on way');
+INSERT INTO baggage VALUES (197, 197, 60, 'on board');
+INSERT INTO baggage VALUES (198, 198, 31, 'on board');
+INSERT INTO baggage VALUES (199, 199, 48, 'on way');
+--INSERT INTO baggage VALUES (200, 200, 13, 'on board');
+INSERT INTO baggage VALUES (201, 201, 50, 'on way');
+INSERT INTO baggage VALUES (202, 202, 15, 'on way');
+INSERT INTO baggage VALUES (203, 203, 28, 'on board');
+INSERT INTO baggage VALUES (204, 204, 52, 'on way');
+INSERT INTO baggage VALUES (205, 205, 33, 'on board');
+INSERT INTO baggage VALUES (206, 206, 41, 'on way');
+INSERT INTO baggage VALUES (207, 207, 19, 'on way');
+INSERT INTO baggage VALUES (208, 208, 45, 'on board');
+INSERT INTO baggage VALUES (209, 209, 17, 'on way');
+INSERT INTO baggage VALUES (210, 210, 56, 'on board');
+INSERT INTO baggage VALUES (211, 211, 30, 'on board');
+INSERT INTO baggage VALUES (212, 212, 58, 'on way');
+INSERT INTO baggage VALUES (213, 213, 23, 'on way');
+INSERT INTO baggage VALUES (214, 214, 42, 'on board');
+INSERT INTO baggage VALUES (215, 215, 10, 'on way');
+INSERT INTO baggage VALUES (216, 216, 40, 'on board');
+INSERT INTO baggage VALUES (217, 217, 59, 'on way');
+INSERT INTO baggage VALUES (218, 218, 30, 'on board');
+INSERT INTO baggage VALUES (219, 219, 46, 'on board');
+INSERT INTO baggage VALUES (220, 220, 21, 'on way');
+INSERT INTO baggage VALUES (221, 221, 56, 'on board');
+--INSERT INTO baggage VALUES (222, 222, 19, 'on way');
+INSERT INTO baggage VALUES (223, 223, 36, 'on board');
+INSERT INTO baggage VALUES (224, 224, 47, 'on way');
+INSERT INTO baggage VALUES (225, 225, 24, 'on board');
+INSERT INTO baggage VALUES (226, 226, 43, 'on board');
+INSERT INTO baggage VALUES (227, 227, 16, 'on board');
+INSERT INTO baggage VALUES (228, 228, 37, 'on way');
+INSERT INTO baggage VALUES (229, 229, 56, 'on way');
+--INSERT INTO baggage VALUES (230, 230, 26, 'on board');
+INSERT INTO baggage VALUES (231, 231, 52, 'on way');
+INSERT INTO baggage VALUES (232, 232, 28, 'on way');
+INSERT INTO baggage VALUES (233, 233, 44, 'on board');
+INSERT INTO baggage VALUES (234, 234, 11, 'on way');
+INSERT INTO baggage VALUES (235, 235, 55, 'on board');
+INSERT INTO baggage VALUES (236, 236, 18, 'on way');
+INSERT INTO baggage VALUES (237, 237, 50, 'on board');
+INSERT INTO baggage VALUES (238, 238, 32, 'on way');
+INSERT INTO baggage VALUES (239, 239, 45, 'on board');
+--INSERT INTO baggage VALUES (240, 240, 16, 'on way');
+INSERT INTO baggage VALUES (241, 241, 34, 'on way');
+INSERT INTO baggage VALUES (242, 242, 55, 'on board');
+INSERT INTO baggage VALUES (243, 1, 25, 'on board');
+INSERT INTO baggage VALUES (244, 2, 60, 'on way');
+INSERT INTO baggage VALUES (245, 3, 40, 'on board');
+INSERT INTO baggage VALUES (246, 4, 20, 'on way');
+INSERT INTO baggage VALUES (247, 5, 46, 'on way');
+INSERT INTO baggage VALUES (248, 6, 17, 'on board');
+INSERT INTO baggage VALUES (249, 7, 52, 'on way');
+INSERT INTO baggage VALUES (250, 8, 31, 'on board');
+INSERT INTO baggage VALUES (251, 9, 48, 'on way');
+INSERT INTO baggage VALUES (252, 10, 11, 'on way');
+INSERT INTO baggage VALUES (253, 11, 30, 'on way');
+INSERT INTO baggage VALUES (254, 12, 56, 'on board');
+--INSERT INTO baggage VALUES (255, 13, 13, 'on board');
+INSERT INTO baggage VALUES (256, 14, 38, 'on way');
+INSERT INTO baggage VALUES (257, 15, 24, 'on way');
+INSERT INTO baggage VALUES (258, 16, 45, 'on board');
+INSERT INTO baggage VALUES (259, 17, 59, 'on board');
+INSERT INTO baggage VALUES (260, 18, 21, 'on way');
+INSERT INTO baggage VALUES (261, 19, 37, 'on board');
+INSERT INTO baggage VALUES (262, 20, 53, 'on way');
+INSERT INTO baggage VALUES (263, 21, 16, 'on way');
+INSERT INTO baggage VALUES (264, 22, 42, 'on board');
+--INSERT INTO baggage VALUES (265, 23, 25, 'on way');
+INSERT INTO baggage VALUES (266, 24, 50, 'on board');
+INSERT INTO baggage VALUES (267, 25, 13, 'on way');
+INSERT INTO baggage VALUES (268, 26, 47, 'on board');
+INSERT INTO baggage VALUES (269, 27, 34, 'on way');
+INSERT INTO baggage VALUES (270, 28, 52, 'on way');
+INSERT INTO baggage VALUES (271, 29, 28, 'on way');
+INSERT INTO baggage VALUES (272, 30, 55, 'on board');
+INSERT INTO baggage VALUES (273, 31, 23, 'on board');
+INSERT INTO baggage VALUES (274, 32, 44, 'on way');
+INSERT INTO baggage VALUES (275, 33, 19, 'on board');
+INSERT INTO baggage VALUES (276, 34, 48, 'on way');
+INSERT INTO baggage VALUES (277, 35, 37, 'on board');
+INSERT INTO baggage VALUES (278, 36, 29, 'on way');
+--INSERT INTO baggage VALUES (279, 37, 51, 'on board');
+INSERT INTO baggage VALUES (280, 38, 14, 'on way');
+INSERT INTO baggage VALUES (281, 39, 46, 'on way');
+INSERT INTO baggage VALUES (282, 40, 10, 'on board');
+INSERT INTO baggage VALUES (283, 41, 31, 'on way');
+INSERT INTO baggage VALUES (284, 42, 51, 'on board');
+INSERT INTO baggage VALUES (285, 43, 56, 'on way');
+INSERT INTO baggage VALUES (286, 44, 29, 'on board');
+INSERT INTO baggage VALUES (287, 45, 47, 'on way');
+INSERT INTO baggage VALUES (288, 46, 16, 'on way');
+INSERT INTO baggage VALUES (289, 47, 53, 'on way');
+INSERT INTO baggage VALUES (290, 48, 11, 'on board');
+INSERT INTO baggage VALUES (291, 49, 45, 'on board');
+INSERT INTO baggage VALUES (292, 50, 20, 'on way');
+INSERT INTO baggage VALUES (293, 51, 54, 'on board');
+INSERT INTO baggage VALUES (294, 52, 33, 'on way');
+--INSERT INTO baggage VALUES (295, 53, 59, 'on way');
+INSERT INTO baggage VALUES (296, 54, 22, 'on board');
+INSERT INTO baggage VALUES (297, 55, 50, 'on board');
+INSERT INTO baggage VALUES (298, 56, 12, 'on way');
+INSERT INTO baggage VALUES (299, 57, 41, 'on way');
+INSERT INTO baggage VALUES (300, 58, 55, 'on board');
+--INSERT INTO baggage VALUES (301, 59, 38, 'on way');
+INSERT INTO baggage VALUES (302, 60, 48, 'on way');
+INSERT INTO baggage VALUES (303, 61, 11, 'on board');
+INSERT INTO baggage VALUES (304, 62, 40, 'on way');
+INSERT INTO baggage VALUES (305, 63, 19, 'on way');
+INSERT INTO baggage VALUES (306, 64, 51, 'on way');
+
+
+Passthrough
+
+
+INSERT INTO passthrough VALUES (1, 1, 1, 81, 1, '2020-05-10 07:30:00');
+INSERT INTO passthrough VALUES (2, 1, 1, 81, 1, '2020-05-10 07:40:00');
+INSERT INTO passthrough VALUES (3, 1, 1, 81, 1, '2020-05-10 07:50:00');
+INSERT INTO passthrough VALUES (4, 1, 1, 81, 1, '2020-05-10 08:00:00');
+INSERT INTO passthrough VALUES (5, 1, 1, 81, 1, '2020-05-10 08:10:00');
+INSERT INTO passthrough VALUES (6, 1, 1, 81, 1, '2020-05-10 08:20:00');
+INSERT INTO passthrough VALUES (7, 1, 1, 81, 1, '2020-05-10 08:30:00');
+INSERT INTO passthrough VALUES (8, 1, 1, 81, 1, '2020-05-10 08:40:00');
+INSERT INTO passthrough VALUES (9, 1, 1, 81, 1, '2020-05-10 08:50:00');
+INSERT INTO passthrough VALUES (10, 1, 1, 81, 1, '2020-05-10 09:00:00');
+INSERT INTO passthrough VALUES (11, 1, 1, 81, 1, '2020-05-10 09:10:00');
+INSERT INTO passthrough VALUES (12, 1, 1, 81, 1, '2020-05-10 09:20:00');
+INSERT INTO passthrough VALUES (14, 1, 1, 81, 1, '2020-05-10 09:40:00');
+INSERT INTO passthrough VALUES (15, 1, 1, 81, 1, '2020-05-10 09:50:00');
+INSERT INTO passthrough VALUES (16, 1, 1, 81, 1, '2020-05-10 10:00:00');
+INSERT INTO passthrough VALUES (1, 1, 1, 102, 2, '2020-05-10 07:35:00');
+INSERT INTO passthrough VALUES (2, 1, 1, 102, 2, '2020-05-10 07:45:00');
+INSERT INTO passthrough VALUES (3, 1, 1, 102, 2, '2020-05-10 07:55:00');
+INSERT INTO passthrough VALUES (4, 1, 1, 102, 2, '2020-05-10 08:05:00');
+INSERT INTO passthrough VALUES (5, 1, 1, 102, 2, '2020-05-10 08:15:00');
+INSERT INTO passthrough VALUES (6, 1, 1, 102, 2, '2020-05-10 08:25:00');
+INSERT INTO passthrough VALUES (7, 1, 1, 102, 2, '2020-05-10 08:35:00');
+INSERT INTO passthrough VALUES (8, 1, 1, 102, 2, '2020-05-10 08:45:00');
+INSERT INTO passthrough VALUES (9, 1, 1, 102, 2, '2020-05-10 08:55:00');
+INSERT INTO passthrough VALUES (10, 1, 1, 102, 2, '2020-05-10 09:05:00');
+INSERT INTO passthrough VALUES (11, 1, 1, 102, 2, '2020-05-10 09:15:00');
+INSERT INTO passthrough VALUES (12, 1, 1, 102, 2, '2020-05-10 09:25:00');
+INSERT INTO passthrough VALUES (14, 1, 1, 102, 2, '2020-05-10 09:45:00');
+INSERT INTO passthrough VALUES (15, 1, 1, 102, 2, '2020-05-10 09:55:00');
+INSERT INTO passthrough VALUES (16, 1, 1, 102, 2, '2020-05-10 10:05:00');
+
+
+INSERT INTO passthrough VALUES (17, 1, 1, 81, 1, '2020-05-11 12:30:00');
+INSERT INTO passthrough VALUES (18, 1, 1, 81, 1, '2020-05-11 12:35:00');
+INSERT INTO passthrough VALUES (19, 1, 1, 81, 1, '2020-05-11 12:40:00');
+INSERT INTO passthrough VALUES (20, 1, 1, 81, 1, '2020-05-11 12:45:00');
+INSERT INTO passthrough VALUES (21, 1, 1, 81, 1, '2020-05-11 12:50:00');
+INSERT INTO passthrough VALUES (22, 1, 1, 81, 1, '2020-05-11 12:55:00');
+INSERT INTO passthrough VALUES (24, 1, 1, 81, 1, '2020-05-11 13:05:00');
+INSERT INTO passthrough VALUES (25, 1, 1, 81, 1, '2020-05-11 13:10:00');
+INSERT INTO passthrough VALUES (26, 1, 1, 81, 1, '2020-05-11 13:15:00');
+INSERT INTO passthrough VALUES (27, 1, 1, 81, 1, '2020-05-11 13:20:00');
+INSERT INTO passthrough VALUES (28, 1, 1, 81, 1, '2020-05-11 13:25:00');
+INSERT INTO passthrough VALUES (29, 1, 1, 81, 1, '2020-05-11 13:30:00');
+
+
+INSERT INTO passthrough VALUES (17, 1, 1, 102, 1, '2020-05-11 12:35:00');
+INSERT INTO passthrough VALUES (18, 1, 1, 102, 1, '2020-05-11 12:40:00');
+INSERT INTO passthrough VALUES (19, 1, 1, 102, 1, '2020-05-11 12:45:00');
+INSERT INTO passthrough VALUES (20, 1, 1, 102, 1, '2020-05-11 12:50:00');
+INSERT INTO passthrough VALUES (21, 1, 1, 102, 1, '2020-05-11 12:55:00');
+INSERT INTO passthrough VALUES (22, 1, 1, 102, 1, '2020-05-11 13:05:00');
+INSERT INTO passthrough VALUES (24, 1, 1, 102, 1, '2020-05-11 13:10:00');
+INSERT INTO passthrough VALUES (25, 1, 1, 102, 1, '2020-05-11 13:15:00');
+INSERT INTO passthrough VALUES (26, 1, 1, 102, 1, '2020-05-11 13:20:00');
+INSERT INTO passthrough VALUES (27, 1, 1, 102, 1, '2020-05-11 13:25:00');
+INSERT INTO passthrough VALUES (28, 1, 1, 102, 1, '2020-05-11 13:30:00');
+INSERT INTO passthrough VALUES (29, 1, 1, 102, 1, '2020-05-11 13:35:00');
+
+
+INSERT INTO passthrough VALUES (30,1,2,81,1,'2021-02-15 10:30:00');
+INSERT INTO passthrough VALUES (31,1,2,81,1,'2021-02-15 10:32:00');
+INSERT INTO passthrough VALUES (32,1,2,81,1,'2021-02-15 10:34:00');
+INSERT INTO passthrough VALUES (33,1,2,81,1,'2021-02-15 10:36:00');
+INSERT INTO passthrough VALUES (34,1,2,81,1,'2021-02-15 10:38:00');
+INSERT INTO passthrough VALUES (35,1,2,81,1,'2021-02-15 10:40:00');
+INSERT INTO passthrough VALUES (36,1,2,81,1,'2021-02-15 10:42:00');
+INSERT INTO passthrough VALUES (38,1,2,81,1,'2021-02-15 10:46:00');
+INSERT INTO passthrough VALUES (39,1,2,81,1,'2021-02-15 10:48:00');
+INSERT INTO passthrough VALUES (40,1,2,81,1,'2021-02-15 10:50:00');
+INSERT INTO passthrough VALUES (41,1,2,81,1,'2021-02-15 10:52:00');
+INSERT INTO passthrough VALUES (42,1,2,81,1,'2021-02-15 10:54:00');
+
+
+INSERT INTO passthrough VALUES (30, 1, 2, 102, 2, '2021-02-15 10:32:00');
+INSERT INTO passthrough VALUES (31, 1, 2, 102, 2, '2021-02-15 10:36:00');
+INSERT INTO passthrough VALUES (32, 1, 2, 102, 2, '2021-02-15 10:40:00');
+INSERT INTO passthrough VALUES (33, 1, 2, 102, 2, '2021-02-15 10:44:00');
+INSERT INTO passthrough VALUES (34, 1, 2, 102, 2, '2021-02-15 10:48:00');
+INSERT INTO passthrough VALUES (35, 1, 2, 102, 2, '2021-02-15 10:52:00');
+INSERT INTO passthrough VALUES (36, 1, 2, 102, 2, '2021-02-15 10:56:00');
+INSERT INTO passthrough VALUES (38, 1, 2, 102, 2, '2021-02-15 11:04:00');
+INSERT INTO passthrough VALUES (39, 1, 2, 102, 2, '2021-02-15 11:08:00');
+INSERT INTO passthrough VALUES (40, 1, 2, 102, 2, '2021-02-15 11:12:00');
+INSERT INTO passthrough VALUES (41, 1, 2, 102, 2, '2021-02-15 11:16:00');
+INSERT INTO passthrough VALUES (42, 1, 2, 102, 2, '2021-02-15 11:20:00');
+
+
+INSERT INTO passthrough VALUES
+(43, 1, 2, 81, 1, '2023-11-25 16:30:00'),
+(44, 1, 2, 81, 1, '2023-11-25 16:40:00'),
+(45, 1, 2, 81, 1, '2023-11-25 16:50:00'),
+(46, 1, 2, 81, 1, '2023-11-25 17:00:00'),
+(47, 1, 2, 81, 1, '2023-11-25 17:10:00'),
+(48, 1, 2, 81, 1, '2023-11-25 17:20:00'),
+(49, 1, 2, 81, 1, '2023-11-25 17:30:00'),
+(50, 1, 2, 81, 1, '2023-11-25 17:40:00'),
+(51, 1, 2, 81, 1, '2023-11-25 17:50:00'),
+(52, 1, 2, 81, 1, '2023-11-25 18:00:00'),
+(54, 1, 2, 81, 1, '2023-11-25 18:10:00');
+
+
+INSERT INTO passthrough VALUES (43,1,2,102,2,'2023-11-25 16:35:00');
+INSERT INTO passthrough VALUES (44,1,2,102,2,'2023-11-25 16:45:00');
+INSERT INTO passthrough VALUES (45,1,2,102,2,'2023-11-25 16:55:00');
+INSERT INTO passthrough VALUES (46,1,2,102,2,'2023-11-25 17:05:00');
+INSERT INTO passthrough VALUES (47,1,2,102,2,'2023-11-25 17:15:00');
+INSERT INTO passthrough VALUES (48,1,2,102,2,'2023-11-25 17:25:00');
+INSERT INTO passthrough VALUES (49,1,2,102,2,'2023-11-25 17:35:00');
+INSERT INTO passthrough VALUES (50,1,2,102,2,'2023-11-25 17:45:00');
+INSERT INTO passthrough VALUES (51,1,2,102,2,'2023-11-25 17:55:00');
+INSERT INTO passthrough VALUES (52,1,2,102,2,'2023-11-25 18:05:00');
+INSERT INTO passthrough VALUES (54,1,2,102,2,'2023-11-25 18:15:00');
+
+
+INSERT INTO passthrough VALUES (55,3,1,63,1,'2020-06-01 11:00:00');
+INSERT INTO passthrough VALUES (56,3,1,63,1,'2020-06-01 11:05:00');
+INSERT INTO passthrough VALUES (57,3,1,63,1,'2020-06-01 11:10:00');
+INSERT INTO passthrough VALUES (58,3,1,63,1,'2020-06-01 11:15:00');
+INSERT INTO passthrough VALUES (60,3,1,63,1,'2020-06-01 11:25:00');
+INSERT INTO passthrough VALUES (61,3,1,63,1,'2020-06-01 11:30:00');
+INSERT INTO passthrough VALUES (62,3,1,63,1,'2020-06-01 11:35:00');
+INSERT INTO passthrough VALUES (63,3,1,63,1,'2020-06-01 11:40:00');
+INSERT INTO passthrough VALUES (64,3,1,63,1,'2020-06-01 11:45:00');
+INSERT INTO passthrough VALUES (65,3,1,63,1,'2020-06-01 11:50:00');
+INSERT INTO passthrough VALUES (66,3,1,63,1,'2020-06-01 11:55:00');
+
+
+INSERT INTO passthrough VALUES (55, 3, 1, 105, 2, '2020-06-01 11:05:00');
+INSERT INTO passthrough VALUES (56, 3, 1, 105, 2, '2020-06-01 11:10:00');
+INSERT INTO passthrough VALUES (57, 3, 1, 105, 2, '2020-06-01 11:15:00');
+INSERT INTO passthrough VALUES (58, 3, 1, 105, 2, '2020-06-01 11:20:00');
+INSERT INTO passthrough VALUES (60, 3, 1, 105, 2, '2020-06-01 11:30:00');
+INSERT INTO passthrough VALUES (61, 3, 1, 105, 2, '2020-06-01 11:35:00');
+INSERT INTO passthrough VALUES (62, 3, 1, 105, 2, '2020-06-01 11:40:00');
+INSERT INTO passthrough VALUES (63, 3, 1, 105, 2, '2020-06-01 11:45:00');
+INSERT INTO passthrough VALUES (64, 3, 1, 105, 2, '2020-06-01 11:50:00');
+INSERT INTO passthrough VALUES (65, 3, 1, 105, 2, '2020-06-01 11:55:00');
+INSERT INTO passthrough VALUES (66, 3, 1, 105, 2, '2020-06-01 12:00:00');
+
+
+INSERT INTO passthrough VALUES (67, 3, 2, 73, 1, '2020-05-11 08:00:00');
+INSERT INTO passthrough VALUES (68, 3, 2, 73, 1, '2020-05-11 08:05:00');
+INSERT INTO passthrough VALUES (69, 3, 2, 73, 1, '2020-05-11 08:10:00');
+INSERT INTO passthrough VALUES (71, 3, 2, 73, 1, '2020-05-11 08:20:00');
+INSERT INTO passthrough VALUES (72, 3, 2, 73, 1, '2020-05-11 08:25:00');
+INSERT INTO passthrough VALUES (73, 3, 2, 73, 1, '2020-05-11 08:30:00');
+INSERT INTO passthrough VALUES (74, 3, 2, 73, 1, '2020-05-11 08:35:00');
+INSERT INTO passthrough VALUES (75, 3, 2, 73, 1, '2020-05-11 08:40:00');
+INSERT INTO passthrough VALUES (76, 3, 2, 73, 1, '2020-05-11 08:45:00');
+INSERT INTO passthrough VALUES (77, 3, 2, 73, 1, '2020-05-11 08:50:00');
+INSERT INTO passthrough VALUES (78, 3, 2, 73, 1, '2020-05-11 08:55:00');
+
+
+INSERT INTO passthrough VALUES (67,3,2,105,2,'2020-05-11 08:05:00');
+INSERT INTO passthrough VALUES (68,3,2,105,2,'2020-05-11 08:10:00');
+INSERT INTO passthrough VALUES (69,3,2,105,2,'2020-05-11 08:15:00');
+INSERT INTO passthrough VALUES (71,3,2,105,2,'2020-05-11 08:25:00');
+INSERT INTO passthrough VALUES (72,3,2,105,2,'2020-05-11 08:30:00');
+INSERT INTO passthrough VALUES (73,3,2,105,2,'2020-05-11 08:35:00');
+INSERT INTO passthrough VALUES (74,3,2,105,2,'2020-05-11 08:40:00');
+INSERT INTO passthrough VALUES (75,3,2,105,2,'2020-05-11 08:45:00');
+INSERT INTO passthrough VALUES (76,3,2,105,2,'2020-05-11 08:50:00');
+INSERT INTO passthrough VALUES (77,3,2,105,2,'2020-05-11 08:55:00');
+INSERT INTO passthrough VALUES (78,3,2,105,2,'2020-05-11 09:00:00');
+
+
+INSERT INTO passthrough VALUES (79, 3, 2, 73, 1, '2020-06-15 12:00:00');
+INSERT INTO passthrough VALUES (80, 3, 2, 73, 1, '2020-06-15 12:05:00');
+INSERT INTO passthrough VALUES (82, 3, 2, 73, 1, '2020-06-15 12:15:00');
+INSERT INTO passthrough VALUES (83, 3, 2, 73, 1, '2020-06-15 12:20:00');
+INSERT INTO passthrough VALUES (84, 3, 2, 73, 1, '2020-06-15 12:25:00');
+INSERT INTO passthrough VALUES (85, 3, 2, 73, 1, '2020-06-15 12:30:00');
+INSERT INTO passthrough VALUES (86, 3, 2, 73, 1, '2020-06-15 12:35:00');
+INSERT INTO passthrough VALUES (87, 3, 2, 73, 1, '2020-06-15 12:40:00');
+INSERT INTO passthrough VALUES (88, 3, 2, 73, 1, '2020-06-15 12:45:00');
+INSERT INTO passthrough VALUES (89, 3, 2, 73, 1, '2020-06-15 12:50:00');
+
+
+INSERT INTO passthrough VALUES (79,3,2,105,2,'2020-06-15 12:05:00');
+INSERT INTO passthrough VALUES (80,3,2,105,2,'2020-06-15 12:10:00');
+INSERT INTO passthrough VALUES (82,3,2,105,2,'2020-06-15 12:20:00');
+INSERT INTO passthrough VALUES (83,3,2,105,2,'2020-06-15 12:25:00');
+INSERT INTO passthrough VALUES (84,3,2,105,2,'2020-06-15 12:30:00');
+INSERT INTO passthrough VALUES (85,3,2,105,2,'2020-06-15 12:35:00');
+INSERT INTO passthrough VALUES (86,3,2,105,2,'2020-06-15 12:40:00');
+INSERT INTO passthrough VALUES (87,3,2,105,2,'2020-06-15 12:45:00');
+INSERT INTO passthrough VALUES (88,3,2,105,2,'2020-06-15 12:50:00');
+INSERT INTO passthrough VALUES (89,3,2,105,2,'2020-06-15 12:55:00');
+
+
+
+
+INSERT INTO passthrough VALUES (91,4,2,64,1,'2020-07-15 10:00:00');
+INSERT INTO passthrough VALUES (93,4,2,64,1,'2020-07-15 10:10:00');
+INSERT INTO passthrough VALUES (94,4,2,64,1,'2020-07-15 10:15:00');
+INSERT INTO passthrough VALUES (95,4,2,64,1,'2020-07-15 10:20:00');
+INSERT INTO passthrough VALUES (96,4,2,64,1,'2020-07-15 10:25:00');
+INSERT INTO passthrough VALUES (97,4,2,64,1,'2020-07-15 10:30:00');
+INSERT INTO passthrough VALUES (98,4,2,64,1,'2020-07-15 10:35:00');
+INSERT INTO passthrough VALUES (99,4,2,64,1,'2020-07-15 10:40:00');
+INSERT INTO passthrough VALUES (100,4,2,64,1,'2020-07-15 10:45:00');
+INSERT INTO passthrough VALUES (101,4,2,64,1,'2020-07-15 10:50:00');
+
+
+INSERT INTO passthrough VALUES (91,4,2,120,2,'2020-07-15 10:05:00');
+INSERT INTO passthrough VALUES (93,4,2,120,2,'2020-07-15 10:15:00');
+INSERT INTO passthrough VALUES (94,4,2,14,2,'2020-07-15 10:20:00');
+INSERT INTO passthrough VALUES (95,4,2,120,2,'2020-07-15 10:25:00');
+INSERT INTO passthrough VALUES (96,4,2,14,2,'2020-07-15 10:30:00');
+INSERT INTO passthrough VALUES (97,4,2,120,2,'2020-07-15 10:35:00');
+INSERT INTO passthrough VALUES (98,4,2,14,2,'2020-07-15 10:40:00');
+INSERT INTO passthrough VALUES (99,4,2,120,2,'2020-07-15 10:45:00');
+INSERT INTO passthrough VALUES (100,4,2,14,2,'2020-07-15 10:50:00');
+INSERT INTO passthrough VALUES (101,4,2,120,2,'2020-07-15 10:55:00');
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+INSERT INTO passthrough VALUES 
+(103, 5, 1, 65, 1, '2020-05-12 12:00:00'),
+(104, 5, 1, 65, 1, '2020-05-12 12:05:00'),
+(105, 5, 1, 65, 1, '2020-05-12 12:10:00'),
+(106, 5, 1, 65, 1, '2020-05-12 12:15:00'),
+(107, 5, 1, 65, 1, '2020-05-12 12:20:00'),
+(108, 5, 1, 65, 1, '2020-05-12 12:25:00'),
+(109, 5, 1, 65, 1, '2020-05-12 12:30:00'),
+(110, 5, 1, 65, 1, '2020-05-12 12:35:00'),
+(111, 5, 1, 65, 1, '2020-05-12 12:40:00'),
+(112, 5, 1, 65, 1, '2020-05-12 12:45:00'),
+(113, 5, 1, 65, 1, '2020-05-12 12:50:00');
+
+
+INSERT INTO passthrough VALUES (103, 5, 1, 86, 2, '2020-05-12 12:05:00');
+INSERT INTO passthrough VALUES (104, 5, 1, 86, 2, '2020-05-12 12:10:00');
+INSERT INTO passthrough VALUES (105, 5, 1, 86, 2, '2020-05-12 12:15:00');
+INSERT INTO passthrough VALUES (106, 5, 1, 86, 2, '2020-05-12 12:20:00');
+INSERT INTO passthrough VALUES (107, 5, 1, 86, 2, '2020-05-12 12:25:00');
+INSERT INTO passthrough VALUES (108, 5, 1, 86, 2, '2020-05-12 12:30:00');
+INSERT INTO passthrough VALUES (109, 5, 1, 86, 2, '2020-05-12 12:35:00');
+INSERT INTO passthrough VALUES (110, 5, 1, 86, 2, '2020-05-12 12:40:00');
+INSERT INTO passthrough VALUES (111, 5, 1, 86, 2, '2020-05-12 12:45:00');
+INSERT INTO passthrough VALUES (112, 5, 1, 86, 2, '2020-05-12 12:50:00');
+INSERT INTO passthrough VALUES (113, 5, 1, 86, 2, '2020-05-12 12:55:00');
+
+
+INSERT INTO passthrough VALUES (114, 5, 1, 65, 1, '2020-05-15 07:00:00');
+INSERT INTO passthrough VALUES (115, 5, 1, 65, 1, '2020-05-15 07:05:00');
+INSERT INTO passthrough VALUES (116, 5, 1, 65, 1, '2020-05-15 07:10:00');
+INSERT INTO passthrough VALUES (117, 5, 1, 65, 1, '2020-05-15 07:15:00');
+INSERT INTO passthrough VALUES (118, 5, 1, 65, 1, '2020-05-15 07:20:00');
+INSERT INTO passthrough VALUES (119, 5, 1, 65, 1, '2020-05-15 07:25:00');
+INSERT INTO passthrough VALUES (121, 5, 1, 65, 1, '2020-05-15 07:35:00');
+INSERT INTO passthrough VALUES (122, 5, 1, 65, 1, '2020-05-15 07:40:00');
+INSERT INTO passthrough VALUES (123, 5, 1, 65, 1, '2020-05-15 07:45:00');
+INSERT INTO passthrough VALUES (124, 5, 1, 65, 1, '2020-05-15 07:50:00');
+INSERT INTO passthrough VALUES (125, 5, 1, 65, 1, '2020-05-15 07:55:00');
+INSERT INTO passthrough VALUES (126, 5, 1, 65, 1, '2020-05-15 08:00:00');
+INSERT INTO passthrough VALUES (127, 5, 1, 65, 1, '2020-05-15 08:05:00');
+
+
+INSERT INTO passthrough VALUES (114, 5, 1, 86, 2, '2020-05-15 07:05:00');
+INSERT INTO passthrough VALUES (115, 5, 1, 86, 2, '2020-05-15 07:10:00');
+INSERT INTO passthrough VALUES (116, 5, 1, 86, 2, '2020-05-15 07:15:00');
+INSERT INTO passthrough VALUES (117, 5, 1, 86, 2, '2020-05-15 07:20:00');
+INSERT INTO passthrough VALUES (118, 5, 1, 86, 2, '2020-05-15 07:25:00');
+INSERT INTO passthrough VALUES (119, 5, 1, 86, 2, '2020-05-15 07:30:00');
+INSERT INTO passthrough VALUES (121, 5, 1, 86, 2, '2020-05-15 07:40:00');
+INSERT INTO passthrough VALUES (122, 5, 1, 86, 2, '2020-05-15 07:45:00');
+INSERT INTO passthrough VALUES (123, 5, 1, 86, 2, '2020-05-15 07:50:00');
+INSERT INTO passthrough VALUES (124, 5, 1, 86, 2, '2020-05-15 07:55:00');
+INSERT INTO passthrough VALUES (125, 5, 1, 86, 2, '2020-05-15 08:00:00');
+INSERT INTO passthrough VALUES (126, 5, 1, 86, 2, '2020-05-15 08:05:00');
+INSERT INTO passthrough VALUES (127, 5, 1, 86, 2, '2020-05-15 08:10:00');
+
+
+INSERT INTO passthrough VALUES (128, 5, 2, 65, 1, '2020-05-10 07:00:00');
+INSERT INTO passthrough VALUES (129, 5, 2, 65, 1, '2020-05-10 07:05:00');
+INSERT INTO passthrough VALUES (130, 5, 2, 65, 1, '2020-05-10 07:10:00');
+INSERT INTO passthrough VALUES (131, 5, 2, 65, 1, '2020-05-10 07:15:00');
+INSERT INTO passthrough VALUES (132, 5, 2, 65, 1, '2020-05-10 07:20:00');
+INSERT INTO passthrough VALUES (134, 5, 2, 65, 1, '2020-05-10 07:30:00');
+INSERT INTO passthrough VALUES (135, 5, 2, 65, 1, '2020-05-10 07:35:00');
+INSERT INTO passthrough VALUES (136, 5, 2, 65, 1, '2020-05-10 07:40:00');
+INSERT INTO passthrough VALUES (137, 5, 2, 65, 1, '2020-05-10 07:45:00');
+INSERT INTO passthrough VALUES (138, 5, 2, 65, 1, '2020-05-10 07:50:00');
+INSERT INTO passthrough VALUES (139, 5, 2, 65, 1, '2020-05-10 07:55:00');
+INSERT INTO passthrough VALUES (140, 5, 2, 65, 1, '2020-05-10 08:00:00');
+INSERT INTO passthrough VALUES (141, 5, 2, 65, 1, '2020-05-10 08:05:00');
+INSERT INTO passthrough VALUES (142, 5, 2, 65, 1, '2020-05-10 08:10:00');
+INSERT INTO passthrough VALUES (143, 5, 2, 65, 1, '2020-05-10 08:15:00');
+
+
+INSERT INTO passthrough VALUES (128, 5, 2, 86, 2, '2020-05-10 07:05:00');
+INSERT INTO passthrough VALUES (129, 5, 2, 86, 2, '2020-05-10 07:10:00');
+INSERT INTO passthrough VALUES (130, 5, 2, 86, 2, '2020-05-10 07:15:00');
+INSERT INTO passthrough VALUES (131, 5, 2, 86, 2, '2020-05-10 07:20:00');
+INSERT INTO passthrough VALUES (132, 5, 2, 86, 2, '2020-05-10 07:25:00');
+INSERT INTO passthrough VALUES (134, 5, 2, 86, 2, '2020-05-10 07:35:00');
+INSERT INTO passthrough VALUES (135, 5, 2, 86, 2, '2020-05-10 07:40:00');
+INSERT INTO passthrough VALUES (136, 5, 2, 86, 2, '2020-05-10 07:45:00');
+INSERT INTO passthrough VALUES (137, 5, 2, 86, 2, '2020-05-10 07:50:00');
+INSERT INTO passthrough VALUES (138, 5, 2, 86, 2, '2020-05-10 07:55:00');
+INSERT INTO passthrough VALUES (139, 5, 2, 86, 2, '2020-05-10 08:00:00');
+INSERT INTO passthrough VALUES (140, 5, 2, 86, 2, '2020-05-10 08:05:00');
+INSERT INTO passthrough VALUES (141, 5, 2, 86, 2, '2020-05-10 08:10:00');
+INSERT INTO passthrough VALUES (142, 5, 2, 86, 2, '2020-05-10 08:15:00');
+INSERT INTO passthrough VALUES (143, 5, 2, 86, 2, '2020-05-10 08:20:00');
+
+
+INSERT INTO passthrough VALUES (144, 6, 1, 97, 1, '2020-05-11 07:00:00');
+INSERT INTO passthrough VALUES (145, 6, 1, 97, 1, '2020-05-11 07:05:00');
+INSERT INTO passthrough VALUES (146, 6, 1, 97, 1, '2020-05-11 07:10:00');
+INSERT INTO passthrough VALUES (147, 6, 1, 97, 1, '2020-05-11 07:15:00');
+INSERT INTO passthrough VALUES (148, 6, 1, 97, 1, '2020-05-11 07:20:00');
+INSERT INTO passthrough VALUES (151, 6, 1, 97, 1, '2020-05-11 07:35:00');
+INSERT INTO passthrough VALUES (152, 6, 1, 97, 1, '2020-05-11 07:40:00');
+INSERT INTO passthrough VALUES (153, 6, 1, 97, 1, '2020-05-11 07:45:00');
+INSERT INTO passthrough VALUES (154, 6, 1, 97, 1, '2020-05-11 07:50:00');
+INSERT INTO passthrough VALUES (155, 6, 1, 97, 1, '2020-05-11 07:55:00');
+INSERT INTO passthrough VALUES (156, 6, 1, 97, 1, '2020-05-11 08:00:00');
+INSERT INTO passthrough VALUES (157, 6, 1, 97, 1, '2020-05-11 08:05:00');
+INSERT INTO passthrough VALUES (158, 6, 1, 97, 1, '2020-05-11 08:10:00');
+INSERT INTO passthrough VALUES (159, 6, 1, 97, 1, '2020-05-11 08:15:00');
+
+
+INSERT INTO passthrough VALUES (144,6,1,112,2,'2020-05-11 07:05:00');
+INSERT INTO passthrough VALUES (145,6,1,112,2,'2020-05-11 07:10:00');
+INSERT INTO passthrough VALUES (146,6,1,112,2,'2020-05-11 07:15:00');
+INSERT INTO passthrough VALUES (147,6,1,112,2,'2020-05-11 07:20:00');
+INSERT INTO passthrough VALUES (148,6,1,112,2,'2020-05-11 07:25:00');
+INSERT INTO passthrough VALUES (151,6,1,112,2,'2020-05-11 07:40:00');
+INSERT INTO passthrough VALUES (152,6,1,112,2,'2020-05-11 07:45:00');
+INSERT INTO passthrough VALUES (153,6,1,112,2,'2020-05-11 07:50:00');
+INSERT INTO passthrough VALUES (154,6,1,112,2,'2020-05-11 07:55:00');
+INSERT INTO passthrough VALUES (155,6,1,112,2,'2020-05-11 08:00:00');
+INSERT INTO passthrough VALUES (156,6,1,112,2,'2020-05-11 08:05:00');
+INSERT INTO passthrough VALUES (157,6,1,112,2,'2020-05-11 08:10:00');
+INSERT INTO passthrough VALUES (158,6,1,112,2,'2020-05-11 08:15:00');
+INSERT INTO passthrough VALUES (159,6,1,112,2,'2020-05-11 08:20:00');
+
+
+INSERT INTO passthrough VALUES (160,7,1,7,1,'2020-06-15 10:30:00');
+INSERT INTO passthrough VALUES (162,7,1,27,1,'2020-06-15 10:40:00');
+INSERT INTO passthrough VALUES (163,7,1,7,1,'2020-06-15 10:45:00');
+INSERT INTO passthrough VALUES (164,7,1,17,1,'2020-06-15 10:50:00');
+INSERT INTO passthrough VALUES (165,7,1,27,1,'2020-06-15 10:55:00');
+INSERT INTO passthrough VALUES (166,7,1,7,1,'2020-06-15 11:00:00');
+INSERT INTO passthrough VALUES (167,7,1,17,1,'2020-06-15 11:05:00');
+INSERT INTO passthrough VALUES (168,7,1,27,1,'2020-06-15 11:10:00');
+INSERT INTO passthrough VALUES (169,7,1,7,1,'2020-06-15 11:15:00');
+INSERT INTO passthrough VALUES (170,7,1,17,1,'2020-06-15 11:20:00');
+INSERT INTO passthrough VALUES (171,7,1,27,1,'2020-06-15 11:25:00');
+INSERT INTO passthrough VALUES (172,7,1,7,1,'2020-06-15 11:30:00');
+
+
+INSERT INTO passthrough VALUES (160, 7, 1, 37, 2, '2020-06-15 10:35:00');
+INSERT INTO passthrough VALUES (162, 7, 1, 57, 2, '2020-06-15 10:45:00');
+INSERT INTO passthrough VALUES (163, 7, 1, 37, 2, '2020-06-15 10:50:00');
+INSERT INTO passthrough VALUES (164, 7, 1, 47, 2, '2020-06-15 10:55:00');
+INSERT INTO passthrough VALUES (165, 7, 1, 57, 2, '2020-06-15 11:00:00');
+INSERT INTO passthrough VALUES (166, 7, 1, 37, 2, '2020-06-15 11:05:00');
+INSERT INTO passthrough VALUES (167, 7, 1, 47, 2, '2020-06-15 11:10:00');
+INSERT INTO passthrough VALUES (168, 7, 1, 57, 2, '2020-06-15 11:15:00');
+INSERT INTO passthrough VALUES (169, 7, 1, 37, 2, '2020-06-15 11:20:00');
+INSERT INTO passthrough VALUES (170, 7, 1, 47, 2, '2020-06-15 11:25:00');
+INSERT INTO passthrough VALUES (171, 7, 1, 57, 2, '2020-06-15 11:30:00');
+INSERT INTO passthrough VALUES (172, 7, 1, 37, 2, '2020-06-15 11:35:00');
+
+
+INSERT INTO passthrough VALUES (173, 7, 1, 7, 1, '2021-01-05 04:30:00');
+INSERT INTO passthrough VALUES (174, 7, 1, 17, 1, '2021-01-05 04:35:00');
+INSERT INTO passthrough VALUES (175, 7, 1, 27, 1, '2021-01-05 04:40:00');
+INSERT INTO passthrough VALUES (176, 7, 1, 7, 1, '2021-01-05 04:45:00');
+INSERT INTO passthrough VALUES (177, 7, 1, 17, 1, '2021-01-05 04:50:00');
+INSERT INTO passthrough VALUES (178, 7, 1, 27, 1, '2021-01-05 04:55:00');
+INSERT INTO passthrough VALUES (179, 7, 1, 7, 1, '2021-01-05 05:00:00');
+INSERT INTO passthrough VALUES (180, 7, 1, 17, 1, '2021-01-05 05:05:00');
+INSERT INTO passthrough VALUES (181, 7, 1, 27, 1, '2021-01-05 05:10:00');
+INSERT INTO passthrough VALUES (182, 7, 1, 7, 1, '2021-01-05 05:15:00');
+INSERT INTO passthrough VALUES (183, 7, 1, 17, 1, '2021-01-05 05:20:00');
+INSERT INTO passthrough VALUES (184, 7, 1, 27, 1, '2021-01-05 05:25:00');
+INSERT INTO passthrough VALUES (185, 7, 1, 7, 1, '2021-01-05 05:30:00');
+INSERT INTO passthrough VALUES (186, 7, 1, 17, 1, '2021-01-05 05:35:00');
+
+
+INSERT INTO passthrough VALUES (173, 7, 1, 37, 2, '2021-01-05 04:35:00');
+INSERT INTO passthrough VALUES (174, 7, 1, 47, 2, '2021-01-05 04:40:00');
+INSERT INTO passthrough VALUES (175, 7, 1, 57, 2, '2021-01-05 04:45:00');
+INSERT INTO passthrough VALUES (176, 7, 1, 37, 2, '2021-01-05 04:50:00');
+INSERT INTO passthrough VALUES (177, 7, 1, 47, 2, '2021-01-05 04:55:00');
+INSERT INTO passthrough VALUES (178, 7, 1, 57, 2, '2021-01-05 05:00:00');
+INSERT INTO passthrough VALUES (179, 7, 1, 37, 2, '2021-01-05 05:05:00');
+INSERT INTO passthrough VALUES (180, 7, 1, 47, 2, '2021-01-05 05:10:00');
+INSERT INTO passthrough VALUES (181, 7, 1, 57, 2, '2021-01-05 05:15:00');
+INSERT INTO passthrough VALUES (182, 7, 1, 37, 2, '2021-01-05 05:20:00');
+INSERT INTO passthrough VALUES (183, 7, 1, 47, 2, '2021-01-05 05:25:00');
+INSERT INTO passthrough VALUES (184, 7, 1, 57, 2, '2021-01-05 05:30:00');
+INSERT INTO passthrough VALUES (185, 7, 1, 37, 2, '2021-01-05 05:35:00');
+INSERT INTO passthrough VALUES (186, 7, 1, 47, 2, '2021-01-05 05:40:00');
+
+
+INSERT INTO passthrough VALUES (188,7,2,7,1,'2020-06-15 08:30:00');
+INSERT INTO passthrough VALUES (189,7,2,17,1,'2020-06-15 08:35:00');
+INSERT INTO passthrough VALUES (190,7,2,27,1,'2020-06-15 08:40:00');
+INSERT INTO passthrough VALUES (191,7,2,7,1,'2020-06-15 08:45:00');
+INSERT INTO passthrough VALUES (192,7,2,17,1,'2020-06-15 08:50:00');
+INSERT INTO passthrough VALUES (193,7,2,27,1,'2020-06-15 08:55:00');
+INSERT INTO passthrough VALUES (194,7,2,7,1,'2020-06-15 09:00:00');
+INSERT INTO passthrough VALUES (195,7,2,17,1,'2020-06-15 09:05:00');
+INSERT INTO passthrough VALUES (196,7,2,27,1,'2020-06-15 09:10:00');
+INSERT INTO passthrough VALUES (197,7,2,7,1,'2020-06-15 09:15:00');
+INSERT INTO passthrough VALUES (198,7,2,17,1,'2020-06-15 09:20:00');
+INSERT INTO passthrough VALUES (199,7,2,27,1,'2020-06-15 09:25:00');
+INSERT INTO passthrough VALUES (201,7,2,17,1,'2020-06-15 09:35:00');
+
+
+INSERT INTO passthrough VALUES (188,7,2,37,2,'2020-06-15 08:35:00');
+INSERT INTO passthrough VALUES (189,7,2,47,2,'2020-06-15 08:40:00');
+INSERT INTO passthrough VALUES (190,7,2,57,2,'2020-06-15 08:45:00');
+INSERT INTO passthrough VALUES (191,7,2,37,2,'2020-06-15 08:50:00');
+INSERT INTO passthrough VALUES (192,7,2,47,2,'2020-06-15 08:55:00');
+INSERT INTO passthrough VALUES (193,7,2,57,2,'2020-06-15 09:00:00');
+INSERT INTO passthrough VALUES (194,7,2,37,2,'2020-06-15 09:05:00');
+INSERT INTO passthrough VALUES (195,7,2,47,2,'2020-06-15 09:10:00');
+INSERT INTO passthrough VALUES (196,7,2,57,2,'2020-06-15 09:15:00');
+INSERT INTO passthrough VALUES (197,7,2,37,2,'2020-06-15 09:20:00');
+INSERT INTO passthrough VALUES (198,7,2,47,2,'2020-06-15 09:25:00');
+INSERT INTO passthrough VALUES (199,7,2,57,2,'2020-06-15 09:30:00');
+INSERT INTO passthrough VALUES (201,7,2,47,2,'2020-06-15 09:40:00');
+
+
+INSERT INTO passthrough VALUES (203, 8, 2, 89, 1, '2020-05-10 08:30:00');
+INSERT INTO passthrough VALUES (204, 8, 2, 89, 1, '2020-05-10 08:35:00');
+INSERT INTO passthrough VALUES (205, 8, 2, 89, 1, '2020-05-10 08:40:00');
+INSERT INTO passthrough VALUES (206, 8, 2, 89, 1, '2020-05-10 08:45:00');
+INSERT INTO passthrough VALUES (207, 8, 2, 89, 1, '2020-05-10 08:50:00');
+INSERT INTO passthrough VALUES (208, 8, 2, 89, 1, '2020-05-10 08:55:00');
+INSERT INTO passthrough VALUES (209, 8, 2, 89, 1, '2020-05-10 09:00:00');
+INSERT INTO passthrough VALUES (210, 8, 2, 89, 1, '2020-05-10 09:05:00');
+INSERT INTO passthrough VALUES (211, 8, 2, 89, 1, '2020-05-10 09:10:00');
+INSERT INTO passthrough VALUES (212, 8, 2, 89, 1, '2020-05-10 09:15:00');
+
+
+INSERT INTO passthrough VALUES (203, 8, 2, 110, 2, '2020-05-10 08:35:00');
+INSERT INTO passthrough VALUES (204, 8, 2, 78, 2, '2020-05-10 08:40:00');
+INSERT INTO passthrough VALUES (205, 8, 2, 110, 2, '2020-05-10 08:45:00');
+INSERT INTO passthrough VALUES (206, 8, 2, 78, 2, '2020-05-10 08:50:00');
+INSERT INTO passthrough VALUES (207, 8, 2, 110, 2, '2020-05-10 08:55:00');
+INSERT INTO passthrough VALUES (208, 8, 2, 78, 2, '2020-05-10 09:00:00');
+INSERT INTO passthrough VALUES (209, 8, 2, 110, 2, '2020-05-10 09:05:00');
+INSERT INTO passthrough VALUES (210, 8, 2, 78, 2, '2020-05-10 09:10:00');
+INSERT INTO passthrough VALUES (211, 8, 2, 110, 2, '2020-05-10 09:15:00');
+INSERT INTO passthrough VALUES (212, 8, 2, 78, 2, '2020-05-10 09:20:00');
+
+
+INSERT INTO passthrough VALUES (213,9,1,90,1,'2020-05-11 10:30:00');
+INSERT INTO passthrough VALUES (214,9,1,90,1,'2020-05-11 10:35:00');
+INSERT INTO passthrough VALUES (215,9,1,90,1,'2020-05-11 10:40:00');
+INSERT INTO passthrough VALUES (216,9,1,90,1,'2020-05-11 10:45:00');
+INSERT INTO passthrough VALUES (217,9,1,90,1,'2020-05-11 10:50:00');
+INSERT INTO passthrough VALUES (218,9,1,90,1,'2020-05-11 10:55:00');
+INSERT INTO passthrough VALUES (219,9,1,90,1,'2020-05-11 11:00:00');
+INSERT INTO passthrough VALUES (220,9,1,90,1,'2020-05-11 11:05:00');
+INSERT INTO passthrough VALUES (221,9,1,90,1,'2020-05-11 11:10:00');
+
+
+INSERT INTO passthrough VALUES (213,9,1,89,2,'2020-05-11 10:35:00');
+INSERT INTO passthrough VALUES (214,9,1,89,2,'2020-05-11 10:40:00');
+INSERT INTO passthrough VALUES (215,9,1,89,2,'2020-05-11 10:45:00');
+INSERT INTO passthrough VALUES (216,9,1,89,2,'2020-05-11 10:50:00');
+INSERT INTO passthrough VALUES (217,9,1,89,2,'2020-05-11 10:55:00');
+INSERT INTO passthrough VALUES (218,9,1,89,2,'2020-05-11 11:00:00');
+INSERT INTO passthrough VALUES (219,9,1,89,2,'2020-05-11 11:05:00');
+INSERT INTO passthrough VALUES (220,9,1,89,2,'2020-05-11 11:10:00');
+INSERT INTO passthrough VALUES (221,9,1,89,2,'2020-05-11 11:15:00');
+
+
+INSERT INTO passthrough VALUES (223, 10, 1, 70, 1, '2020-06-15 10:30:00');
+INSERT INTO passthrough VALUES (224, 10, 1, 70, 1, '2020-06-15 10:35:00');
+INSERT INTO passthrough VALUES (225, 10, 1, 70, 1, '2020-06-15 10:40:00');
+INSERT INTO passthrough VALUES (226, 10, 1, 70, 1, '2020-06-15 10:45:00');
+INSERT INTO passthrough VALUES (227, 10, 1, 70, 1, '2020-06-15 10:50:00');
+INSERT INTO passthrough VALUES (228, 10, 1, 70, 1, '2020-06-15 10:55:00');
+INSERT INTO passthrough VALUES (229, 10, 1, 70, 1, '2020-06-15 11:00:00');
+INSERT INTO passthrough VALUES (231, 10, 1, 70, 1, '2020-06-15 11:10:00');
+INSERT INTO passthrough VALUES (232, 10, 1, 70, 1, '2020-06-15 11:15:00');
+
+
+INSERT INTO passthrough VALUES (223, 10, 1, 80, 2, '2020-06-15 10:35:00');
+INSERT INTO passthrough VALUES (224, 10, 1, 80, 2, '2020-06-15 10:40:00');
+INSERT INTO passthrough VALUES (225, 10, 1, 80, 2, '2020-06-15 10:45:00');
+INSERT INTO passthrough VALUES (226, 10, 1, 80, 2, '2020-06-15 10:50:00');
+INSERT INTO passthrough VALUES (227, 10, 1, 80, 2, '2020-06-15 10:55:00');
+INSERT INTO passthrough VALUES (228, 10, 1, 80, 2, '2020-06-15 11:00:00');
+INSERT INTO passthrough VALUES (229, 10, 1, 80, 2, '2020-06-15 11:05:00');
+INSERT INTO passthrough VALUES (231, 10, 1, 80, 2, '2020-06-15 11:15:00');
+INSERT INTO passthrough VALUES (232, 10, 1, 80, 2, '2020-06-15 11:20:00');
+
+
+INSERT INTO passthrough VALUES (233, 10, 1, 70, 1, '2020-08-20 14:30:00');
+INSERT INTO passthrough VALUES (234, 10, 1, 70, 1, '2020-08-20 14:35:00');
+INSERT INTO passthrough VALUES (235, 10, 1, 70, 1, '2020-08-20 14:40:00');
+INSERT INTO passthrough VALUES (236, 10, 1, 70, 1, '2020-08-20 14:45:00');
+INSERT INTO passthrough VALUES (237, 10, 1, 70, 1, '2020-08-20 14:50:00');
+INSERT INTO passthrough VALUES (238, 10, 1, 70, 1, '2020-08-20 14:55:00');
+INSERT INTO passthrough VALUES (239, 10, 1, 70, 1, '2020-08-20 15:00:00');
+INSERT INTO passthrough VALUES (241, 10, 1, 70, 1, '2020-08-20 15:10:00');
+INSERT INTO passthrough VALUES (242, 10, 1, 70, 1, '2020-08-20 15:15:00');
+
+
+INSERT INTO passthrough VALUES (233, 10, 1, 80, 2, '2020-08-20 14:35:00');
+INSERT INTO passthrough VALUES (234, 10, 1, 80, 2, '2020-08-20 14:40:00');
+INSERT INTO passthrough VALUES (235, 10, 1, 80, 2, '2020-08-20 14:45:00');
+INSERT INTO passthrough VALUES (236, 10, 1, 80, 2, '2020-08-20 14:50:00');
+INSERT INTO passthrough VALUES (237, 10, 1, 80, 2, '2020-08-20 14:55:00');
+INSERT INTO passthrough VALUES (238, 10, 1, 80, 2, '2020-08-20 15:00:00');
+INSERT INTO passthrough VALUES (239, 10, 1, 80, 2, '2020-08-20 15:05:00');
+INSERT INTO passthrough VALUES (241, 10, 1, 80, 2, '2020-08-20 15:15:00');
+INSERT INTO passthrough VALUES (242, 10, 1, 80, 2, '2020-08-20 15:20:00');
+
+
+
+
+--------------------END--------------------
